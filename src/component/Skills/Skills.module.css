@@ -471,8 +471,10 @@ header .page_Title {
         text-align: left;
         padding-left: 3rem;
         font-size: 2rem;
-        font-weight: 400;
-        color: var(--PageTitleColor);
+        line-height: 2rem;
+        font-weight: 600;
+        /* color: var(--PageTitleColor); */
+        color: white;
         text-shadow: .2rem .2rem rgb(0, 0, 0);
     }
 
@@ -488,6 +490,7 @@ header .page_Title {
         font-size: 1rem;
         font-weight: 200;
         line-height: 1rem;
+        margin-top: .5rem;
         color: white;
         border: 1px solid black;
         background-color: black;
@@ -498,6 +501,31 @@ header .page_Title {
         background-color: white;
         color: black;
     }
+    .button_Back_Menu_Lower_Container {
+        margin-top: 1rem;
+        display: inline-block;
+        width: 80%;
+        height: 3rem;
+        margin-left: calc(10%);
+        margin-bottom: 1rem;
+    }
+    .button_Back_Menu_Button {
+        width: 100%;
+        height: 3rem;
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 1rem;
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+    } 
+    .button_Back_Menu_Button:hover {
+        cursor: pointer;
+        border: 1px solid gray;
+        background-color: white;
+        color: black;
+    }
+
     .skills_Container {
         margin: 0 auto;
         margin-top: 2rem;
@@ -533,17 +561,18 @@ header .page_Title {
         width: 60vw;
         height: auto;
         text-align: center;
-        padding-bottom: 0.25rem;
-        padding-top: 0.25rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem; 
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2rem; 
         color: white;
         background-color: rgba(5, 18, 28, 0.6);
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
+        /* text-shadow: .2rem .2rem rgb(0, 0, 0); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .element_Card {
         width: 90%;
@@ -578,7 +607,7 @@ header .page_Title {
         background-size: cover;
         box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
     } 
-
+    .element_Card .js:hover .tip,
     .element_Card .ts:hover .tip,
     .element_Card .html:hover .tip,
     .element_Card .css:hover .tip,
@@ -601,9 +630,10 @@ header .page_Title {
     .tip {
         visibility: hidden;
         position: absolute;
-        top: 30px;
-        left: -5px;
-        width: 5rem;
+        top: 70px;
+        left: px;
+        text-align: center;
+        width: 8rem;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -829,9 +859,12 @@ header .page_Title {
         padding-bottom: 1.25rem;
         padding-top: 1.25rem;
         font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem;
         font-weight: 200;
-        line-height: 1.5rem;
+        line-height: 1.5rem; */
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 2rem;
         text-shadow: .2rem .2rem rgb(0, 0, 0);
     }
 
@@ -845,7 +878,7 @@ header .page_Title {
         padding-bottom: 1.25rem;
         padding-top: 1.25rem;
         font-family: 'Orbitron', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 100;
         line-height: 3rem;
         padding-top: 0rem;
@@ -862,10 +895,8 @@ header .page_Title {
         justify-content: center;
         align-items: center; 
         gap: 2rem;
-        
         padding-top: 3rem;
         padding-bottom: 3rem;
-
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-size: 1.5rem;
         font-weight: 200;
@@ -887,10 +918,11 @@ header .page_Title {
         /* flex-direction: row; */
 
         flex-basis: 100%;
-        font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-size: 1.5rem;
-        font-weight: 200;
-        line-height: 1.5rem;
+        font-family: 'Orbitron', sans-serif;
+        /* font-family: 'Fira Sans Extra Condensed', sans-serif; */
+        font-size: 1.8rem;
+        font-weight: 100;
+        line-height: 1.8rem;
         color: white;
         text-shadow: .2rem .2rem rgb(0, 0, 0);
     }
@@ -900,9 +932,9 @@ header .page_Title {
     .element_Card_Lang_Container span {
         flex-basis: 100%;
         text-align: center;
-        font-size: 1.5rem;
-        font-weight: 100;
-        line-height: 1.5rem;
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 2rem;
         color: rgba(255,255,255,0.8);
         text-shadow: .2rem .2rem rgb(0, 0, 0);
         padding-bottom: 1rem;

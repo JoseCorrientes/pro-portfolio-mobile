@@ -484,8 +484,11 @@ a:active, a:any-link {
     .contactus_Container h1 {
         width: 100%;
         text-align: center;
-        font-size: 1.5rem;
-        font-weight: 300;
+        /* font-size: 1.5rem;
+        font-weight: 300; */
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2rem;
         /* color: var(--PageTitleColor); */
         color: white;
         text-shadow: .2rem .2rem rgb(0, 0, 0);

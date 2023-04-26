@@ -148,6 +148,18 @@ function Skills() {
           </div>
         </div>
       </div>
+
+      <div
+                className={SkillsCSS.button_Back_Menu_Lower_Container}
+                >               
+                <Link 
+                        to= "/">
+                        <button className={SkillsCSS.button_Back_Menu_Button}>Back Home
+                        </button>
+                </Link>
+     </div>   
+
+
     </div>
   );
 }
