@@ -92,7 +92,6 @@ function LandingPage() {
           <br />
 
           <span>Linkedin: </span>
-
           <a 
             className={LandingPageCSS.contact_Link}
             href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
