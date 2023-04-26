@@ -315,8 +315,9 @@ a:active, a:any-link {
     }
     .msj_Container span {
         font-family: 'Orbitron', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 400;
+        line-height: 2rem;
         color: rgb(24, 51, 221);
         text-shadow: 0.1rem 0.1rem 0.1rem black;
     }

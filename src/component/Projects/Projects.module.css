@@ -246,7 +246,8 @@ header .page_Title {
         padding-left: 3rem;
         font-size: 2rem;
         font-weight: 400;
-        color: var(--PageTitleColor);
+        /* color: var(--PageTitleColor); */
+        color: white;
         text-shadow: .2rem .2rem rgb(0, 0, 0);
     }
     .projects_Container {
@@ -343,8 +344,10 @@ header .page_Title {
         line-height: 1.5rem;
         padding-bottom: 1rem;
         padding-top: 1rem;
-        color: black;
-        text-shadow: .3rem .3rem .3rem rgb(152, 150, 150);
+        /* color: black; */
+        color: white;
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .title_span_Text {
         flex-basis: 60%;
@@ -375,9 +378,11 @@ header .page_Title {
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
-        color: black;
+        color: white;
+        /* color: black; */
         padding-bottom: 1rem;
-        text-shadow: .3rem .3rem .3rem rgb(152, 150, 150);
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .description_span_Text {
         flex-basis: 100%;
@@ -401,9 +406,11 @@ header .page_Title {
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
-        color: black;
+        /* color: black; */
+        color: white;
         padding-bottom: 1rem;
-        text-shadow: .3rem .3rem .3rem rgb(152, 150, 150);
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .tech_span_Text {
         flex-basis: 100%;
@@ -450,9 +457,11 @@ header .page_Title {
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
-        color: black;
+        color: white;
+        /* color: black; */
         padding-bottom: 1rem;
-        text-shadow: .3rem .3rem .3rem rgb(152, 150, 150);
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .backrepo_span_Text {
         flex-basis: 100%;
@@ -482,9 +491,11 @@ header .page_Title {
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
-        color: black;
+        /* color: black; */
+        color: white;
         padding-bottom: 1rem;
-        text-shadow: .3rem .3rem .3rem rgb(152, 150, 150);
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .frontrepo_span_Text {
         flex-basis: 100%;
@@ -512,8 +523,11 @@ header .page_Title {
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
-        color: black;
+        /* color: black; */
+        color: white;
         padding-bottom: 1rem;
+        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
+        text-shadow: .3rem .3rem .3rem black;
     }
     .project_Card_left_container .frontdeploy_span_Text {
         flex-basis: 100%;
