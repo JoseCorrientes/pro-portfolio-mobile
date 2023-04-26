@@ -341,6 +341,7 @@ a:active, a:any-link {
         padding-bottom: 1rem;
     }    
     .buttons_Container {
+        margin-top: 1rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -349,21 +350,17 @@ a:active, a:any-link {
         align-items: center;
         width: 100%;
         height: 15rem;
-        background-color: transparent;        
+        background-color: transparent;  
     }
     .button_Proyects {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 45%;
     }
     .button_Proyects button {
-        flex-basis: 100%;
+        display:block;
         width: 20rem;
         height: 6rem;
+        margin: 0 auto;
         font-size: 1.5rem;
         font-weight: 300;
         text-shadow: .2rem .2rem rgb(0, 0, 0);
@@ -373,26 +370,32 @@ a:active, a:any-link {
         border-radius: 4rem 4rem 0 0 ;
         backdrop-filter: blur(.8rem);
     }
-    .button_Proyects button:hover {
-        transform:scale(.8);
-        transition: 500ms;
-        background-color: rgba(161, 158, 158, .2);
-        border: 2px solid white;
-        box-shadow: 1rem 1rem 10rem lightblue;
-        backdrop-filter: grayscale(100%);
-        color: white;
-    }
     .button_Cv {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: self-end;
-        flex-basis: 50%;
+        display: block;
         height: 45%;
+        width: 50%;
+        text-align: right;
         background-color: transparent;
     }
-    .button_Cv button {
+    .button_Cv a {
+        display: inline-block;
+        width: 10rem;
+        height: 6rem;
+        background-color: rgb(17, 12, 12);;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 6rem;
+        text-shadow: .2rem .2rem rgb(0, 0, 0);
+        border-radius: 0 0 0 4rem ;
+        border: 1px solid white;
+        border-right: 0px;
+        box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
+        backdrop-filter: blur(.8rem);
+    }
+
+    /* .button_Cv button {
         width: 10rem;
         height: 6rem;
         font-size: 1.5rem;
@@ -404,23 +407,22 @@ a:active, a:any-link {
         border-right: 0px;
         box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
         backdrop-filter: blur(.8rem);
-    }
-    .button_Cv button:hover {
-        transform:scale(.8);
+        
+    } */
+    /* .button_Cv button:hover {
+        background-color: black;        
+        
+        /* transform:scale(.8);
         transition: 500ms;
         border: 2px solid white;
         box-shadow: 1rem 1rem 10rem lightblue;
         backdrop-filter: grayscale(100%);
-        color: white;
-    }
+        color: white;  
+    }  */
     .button_Skills {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: self-start;
-        flex-basis: 50%;
         height: 45%;
+        width: 50%;
+        text-align: left;
         background-color: transparent;
     }
     .button_Skills button {
@@ -435,7 +437,7 @@ a:active, a:any-link {
         box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
         backdrop-filter: blur(.8rem);
     }
-    .button_Skills button:hover {
+    /* .button_Skills button:hover {
         transform:scale(.8);
         transition: 500ms;
         background-color: rgba(161, 158, 158, .2);
@@ -443,7 +445,25 @@ a:active, a:any-link {
         box-shadow: 1rem 1rem 10rem lightblue;
         backdrop-filter: grayscale(100%);
         color: white;
+    } */
+    a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        text-decoration-line: none;
     }
+    a:active, a:any-link {
+        color: white
+    }
+
+
+
+
+
+
+
+
+
     .contactus_Container {
         padding-top: 2rem;
         width: 100%;
@@ -460,20 +480,14 @@ a:active, a:any-link {
         text-align: center;
         font-size: 1.5rem;
         font-weight: 300;
-        color: var(--PageTitleColor);
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-        padding-bottom: 0rem;
-    }
-    .contactus_Container p {
-        width: 100%;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: 300;
-        margin-bottom: 2rem;
+        /* color: var(--PageTitleColor); */
         color: white;
-        text-shadow: .2rem .2rem .1rem rgb(13, 13, 13);
+        text-shadow: .2rem .2rem rgb(0, 0, 0);
+        padding-bottom: 1.5rem;
+
     }
     .contactus_Container span {
+        display: inline-block;
         width: 100%;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
@@ -482,4 +496,34 @@ a:active, a:any-link {
         color: rgb(24, 51, 221);
         text-shadow: 0.3rem 0.3rem 0.8rem white;
     }
+    .contact_Link {
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 200;
+        line-height: 1.7rem;
+        margin-bottom: 2rem;
+        color: white;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-bottom: 2rem;
+    }
+
+
+    /* .contactus_Container p {
+        width: 100%;
+        
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        color: white;
+        /* text-shadow: .2rem .2rem .1rem rgb(13, 13, 13);
+    } */
 }    

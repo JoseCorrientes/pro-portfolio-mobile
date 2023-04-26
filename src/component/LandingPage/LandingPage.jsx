@@ -66,9 +66,9 @@ function LandingPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button>DOWNLOAD CV</button>
+              DOWNLOAD CV
             </a>
-          </div>
+            </div>
           <div className={LandingPageCSS.button_Skills}>
             <Link to="/Skills">
               <button>SKILLS</button>
@@ -78,35 +78,52 @@ function LandingPage() {
 
 
 
+
+
+
+
+
+
+
         <div className={LandingPageCSS.contactus_Container}>
 
 
           <h1>INFORMATION && CONTACT</h1>
           <br />
-          <p>
-            <span>Linkedin: </span>
-            <a href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
-              https://www.linkedin.com/in/joseernestogarciadeveloper/
-            </a>
-          </p>
-          <p>
-            <span>Github: </span>
-            <a href="https://github.com/JoseCorrientes">
-              https://github.com/JoseCorrientes
-            </a>
-          </p>
-          <p>
-            <span>@Mail: </span>
-            <a href="mailto: josernestogarcia609@gmail.com">
-              josernestogarcia609@gmail.com
-            </a>
-          </p>
-          <p>
-            <span>Phone: </span>
+
+          <span>Linkedin: </span>
+
+          <a 
+            className={LandingPageCSS.contact_Link}
+            href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
+            https://www.linkedin.com/in/joseernestogarciadeveloper
+          </a>
+          
+
+
+          <span>Github: </span>
+          <a
+            className={LandingPageCSS.contact_Link} 
+            href="https://github.com/JoseCorrientes">
+            https://github.com/JoseCorrientes
+          </a>
+
+          <span>@Mail: </span>
+          <a 
+            className={LandingPageCSS.contact_Link} 
+            href="mailto: josernestogarcia609@gmail.com">
+            josernestogarcia609@gmail.com
+          </a>
+          <span>Phone: </span>
+          <p
+            className={LandingPageCSS.contact_Link}    
+            >
             (+54) 9 3794 599549
           </p>
-          <p>
-            <span>Country: </span>
+          <span>Country: </span>
+          <p
+            className={LandingPageCSS.contact_Link}    
+            >
             Argentina (Corrientes)
           </p>
         </div>
