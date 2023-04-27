@@ -12,7 +12,64 @@
     width: 100%;
     height: 100%;
     padding: .5rem;
+}*/
+
+.language_Bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.5rem;
 }
+.language_Bar p {
+    color: white;
+}
+.switch_Button {
+    display: inline-block;
+    padding-top: .5rem;
+}
+.switch_Button .switch_Button_Checkbox {
+    display: none;
+}
+.switch_Button .switch_Button_Label {
+    background-color: red;
+    width: 3.5rem;
+    height: 2rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch_Button .switch_Button_Label:before {
+    display:block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    content: "";
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px black;
+}
+.switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label {
+    background-color: green;
+}
+.switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label:before {
+    transform: translateX(1.5rem);
+}
+
+
+
+
+
+
+
+/*
 .upper_Container {
     display: flex;
     flex-direction: row;
@@ -283,6 +340,59 @@ a:active, a:any-link {
         background-color: transparent;
         border: none;
     }
+    .language_Bar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        height: 3rem;
+        background-color: black;
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 1.5rem;
+    }
+    .language_Bar p {
+        color: white;
+    }
+    .switch_Button {
+        display: inline-block;
+        padding-top: .5rem;
+    }
+    .switch_Button .switch_Button_Checkbox {
+        display: none;
+    }
+    .switch_Button .switch_Button_Label {
+        background-color: red;
+        width: 3.5rem;
+        height: 2rem;
+        border-radius: 3rem;
+        display: inline-block;
+        position: relative;
+    }
+    .switch_Button .switch_Button_Label:before {
+        display:block;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-color: white;
+        content: "";
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 0px 1px black;
+    }
+    .switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label {
+        background-color: green;
+    }
+    .switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label:before {
+        transform: translateX(1.5rem);
+    }
+    
+
+
+
+
     .upper_Container {
         padding-top: 1rem;
         width: 90%;

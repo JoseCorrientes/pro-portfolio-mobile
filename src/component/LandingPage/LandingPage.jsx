@@ -7,6 +7,29 @@ function LandingPage() {
   return (
     <div className={LandingPageCSS.main_Container}>
 
+        <div  
+            className={LandingPageCSS.language_Bar}>
+                <p>Languaje</p>
+                <div
+                    className={LandingPageCSS.switch_Button}
+                    >
+                     <input 
+                        type="checkbox"
+                        name="switch_Button"
+                        id="switch-label"
+                        className={LandingPageCSS.switch_Button_Checkbox}
+                        />   
+                     <label 
+                        htmlFor="switch-label"
+                        className={LandingPageCSS.switch_Button_Label}
+                        ></label>   
+
+                </div>
+
+
+
+        </div>
+
 
         
        <div className={LandingPageCSS.upper_Container}>
