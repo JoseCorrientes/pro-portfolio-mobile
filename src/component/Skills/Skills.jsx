@@ -1,15 +1,16 @@
 import SkillsCSS from "./Skills.module.css";
 import {Link} from "react-router-dom";
+import {data} from "../../text/text";
 
-function Skills() {
+function Skills({lang}) {
   return (
     <div>
       <header>
-        <h2 className={SkillsCSS.page_Title}>SKILLS</h2>
+        <h2 className={SkillsCSS.page_Title}>{data.skillTitle[lang]}</h2>
                 <Link 
                     className={SkillsCSS.link_Visibility}
                     to= "/">
-                    <button className={SkillsCSS.button_Back_Menu}>Back Home
+                    <button className={SkillsCSS.button_Back_Menu}>{data.backHome[lang]}
                     </button>
                 </Link>    
       </header>
@@ -18,7 +19,7 @@ function Skills() {
           <div className={SkillsCSS.skill_Card_Main_Container}>
             <div className={SkillsCSS.skill_Card}>
                 <div className={SkillsCSS.element_Card_Title}>
-                    <p>TECHNOLOGIES</p>
+                    <p>{data.technologies[lang]}</p>
                 </div>
 
 
@@ -80,7 +81,7 @@ function Skills() {
               </div>
               
               <div className={SkillsCSS.element_Card_Title}>
-                <p>SOFT SKILLS</p>
+                <p>{data.softSkills[lang]}</p>
               </div>
 
 
@@ -88,18 +89,18 @@ function Skills() {
 
               <div className={SkillsCSS.element_Card_Soft}>
                 <p className={SkillsCSS.element_card_Soft_Line}>
-                  Self-learning
+                  {data.soft1[lang]}
                 </p>
-                <p className={SkillsCSS.element_card_Soft_Line}>Motivation</p>
+                <p className={SkillsCSS.element_card_Soft_Line}>{data.soft2[lang]}</p>
                 <p className={SkillsCSS.element_card_Soft_Line}>
-                  Responsability
+                {data.soft3[lang]}
                 </p>
-                <p className={SkillsCSS.element_card_Soft_Line}>Team-Work</p>
+                <p className={SkillsCSS.element_card_Soft_Line}>{data.soft4[lang]}</p>
                 <p className={SkillsCSS.element_card_Soft_Line}>
-                  Active-listening
+                {data.soft5[lang]}
                 </p>
                 <p className={SkillsCSS.element_card_Soft_Line}>
-                  Time management
+                {data.soft6[lang]}
                 </p>
               </div>
 
@@ -109,41 +110,26 @@ function Skills() {
 
 
               <div className={SkillsCSS.element_Card_Title}>
-                <p>LANGUAGES</p>
+                <p>{data.languageTitle[lang]}</p>
               </div>
 
 
               <div className={SkillsCSS.element_Card_Soft}>
-                <div className={SkillsCSS.element_Card_Lang_Title}>SPANISH</div>
+                <div className={SkillsCSS.element_Card_Lang_Title}>{data.languageSpanish[lang]}</div>
                     <div className={SkillsCSS.element_Card_Lang_Container}>
-                        <p className={SkillsCSS.element_Card_Lang_Item}>Written:</p>
-                        <span>Native</span>
-                        <p className={SkillsCSS.element_Card_Lang_Item}>Spoken: </p>
-                        <span>Native</span>
+                        <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageW[lang]}:</p>
+                        <span>{data.languageN[lang]}</span>
+                        <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageS[lang]}:</p>
+                        <span>{data.languageN[lang]}</span>
                     </div>
-                <div className={SkillsCSS.element_Card_Lang_Title}>ENGLISH</div>
+                <div className={SkillsCSS.element_Card_Lang_Title}>{data.languageEnglish[lang]}</div>
                     <div className={SkillsCSS.element_Card_Lang_Container}>
-                        <p className={SkillsCSS.element_Card_Lang_Item}>Written: </p>
-                        <span>Lower Intermediate Level</span>
-                        <p className={SkillsCSS.element_Card_Lang_Item}>Spoken: </p>
-                        <span>Upper Basic Level</span>
+                        <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageW[lang]}:</p>
+                        <span>{data.languageLI[lang]}</span>
+                        <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageS[lang]}:</p>
+                        <span>{data.languageLL[lang]}</span>
                     </div>
               </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
             </div>
           </div>
         </div>
@@ -154,7 +140,7 @@ function Skills() {
                 >               
                 <Link 
                         to= "/">
-                        <button className={SkillsCSS.button_Back_Menu_Button}>Back Home
+                        <button className={SkillsCSS.button_Back_Menu_Button}>{data.backHome[lang]}
                         </button>
                 </Link>
      </div>   
