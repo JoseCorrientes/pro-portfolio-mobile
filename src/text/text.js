@@ -36,6 +36,13 @@ const data = {
     languageLI: ["Lower Intermediate Level", "Nivel Intermedio Bajo"],
     languageLL: ["Upper Basic Level", "Nivel Basico Alto"],
     projectTitle: ["PROJECTS", "PROJECTOS"],
+    projectName: ["PROJECT NAME", "NOMBRE DEL PROYECTO"],
+    projectDescription: ["DESCRIPTION", "DESCRIPCION"],
+    projectTechnologies: ["TECHNOLOGIES", "TECNOLOGIAS"],
+    projectFERepository: ["FRONTEND REPOSITORY", "REPOSITORIO FRONTEND"],
+    projectBERepository: ["BACKEND REPOSITORY", "REPOSITORIO BACKEND"],
+    projectDeployed: ["URL DEPLOYED", "URL ACCESO WEB"],
+    projectClickHere: ["Click Here...", "Presione aquí..."]
     }
 
 

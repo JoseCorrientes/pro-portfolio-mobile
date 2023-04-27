@@ -371,11 +371,8 @@ a:active, a:any-link {
         border-radius: 3rem;
         display: inline-block;
         position: relative;
-        /* background-image: url('../../images/spainflag.png'); */
-        background-image: url('../../images/usaflag.png');
-        background-position: center;
-        background-size: cover;
-    }
+        background-color: grey;
+    } 
     .switch_Button .switch_Button_Label:before {
         display:block;
         position: absolute;
@@ -387,9 +384,8 @@ a:active, a:any-link {
         box-shadow: inset 0px 0px 0px 1px black;
     }
     .switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label {
-        background-image: url('../../images/spainflag.png');
-        background-position: center;
-        background-size: contain;
+        background-color: grey;
+        
     }
     .switch_Button .switch_Button_Checkbox:checked + .switch_Button_Label:before {
         transform: translateX(1.5rem);

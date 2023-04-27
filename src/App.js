@@ -13,7 +13,7 @@ import { useState } from 'react';
 function App() {
 
   const [lang, setLang] = useState(0); 
-  
+
   function toggleLanguage(e) {
         if (lang===0) {
             setLang(1);

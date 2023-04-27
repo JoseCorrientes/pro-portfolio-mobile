@@ -6,6 +6,7 @@ import {data } from "../../text/text";
 import { useState } from "react";
 
 function LandingPage({toggleLanguage, lang}) {
+// function LandingPage({onCheckLanguage, lang, check}) {
 
 
   return (
@@ -19,9 +20,10 @@ function LandingPage({toggleLanguage, lang}) {
                      <input 
                         type="checkbox"
                         name="switch_Button"
+                        value={true}
                         id="switch-label"
                         className={LandingPageCSS.switch_Button_Checkbox}
-                        onClick={(e)=>toggleLanguage(e)}
+                        onChange={(e)=>toggleLanguage(e)}
                         />   
                      <label 
                         htmlFor="switch-label"
