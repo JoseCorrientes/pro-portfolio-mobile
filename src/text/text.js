@@ -56,9 +56,10 @@ const data = {
             pName: ["BUYME APP2", "BUYMEAPP2"],
             pDescription: ["2Buyme app it's our Final Team Work to graduated from Henry's Bootcamp. It's an client-server app to manage an e-commerce. It has two front parts:  The client part and the administrator one. Depending on you loggin you access to one or the other. The App uses Mercado Pago as  pay gateway. It also uses Jason Web Token to improve the access security.", "2Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry. Consiste en una app cliente-servidor para gestionar un e-commerce. Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado. utiliza a mercado pago como pasarela de pago. Tambien utiliza Jason Web Token para mejorar la seguridad del acceso."],
             pTech: ["2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.", "2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api."],
-            pFront: "2https://github.com/JoseCorrientes/Buyme-app-PF.git",
-            pBack: "2https://github.com/JoseCorrientes/Buyme-app-PF.git",
-            pDeploy: ""
+            pFront: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
+            pBack: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
+            pDeploy: "",
+            pVideo: ["https://youtu.be/P2944P1AZcM", "https://youtu.be/os5HgswlHWM"]
         },
     ]    
 

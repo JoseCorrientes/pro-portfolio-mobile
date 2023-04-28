@@ -1,7 +1,8 @@
 import ProjectCSS from "./Projects.module.css";
-import ReactPlayer from "react-player";
+
 import {Link} from "react-router-dom";
 import {data} from "../../text/text";
+import { ProjectCard } from "../ProjectCard/ProjectCard";
 
 function Projects ({lang}){
 
@@ -20,32 +21,44 @@ function Projects ({lang}){
 
             <div className={ProjectCSS.projects_Container}>
 
+            {data.projectData && data.projectData.length>0 && data.projectData.map(item=> 
+                <ProjectCard
+                    projectName={data.projectName}
+                    projectDescription={data.projectDescription}
+                    projectTechnologies={data.projectTechnologies}
+                    projectFERepository={data.projectFERepository}
+                    projectBERepository={data.projectBERepository}
+                    projectDeployed={data.projectDeployed}
+                    projectClickHere={data.projectClickHere}
+                    pData={item}
+                    lang={lang}
+                />)
+            }
 
-                <div className={ProjectCSS.project_Card}>
 
 
+
+
+
+
+
+
+                {/* Este es el inicio de la card de 1 proyecto  */}
+                {/* <div className={ProjectCSS.project_Card}>
                     <div className={ProjectCSS.project_Card_left_container}>
-                        
                          <div className={ProjectCSS.title_Container}>
-
                             <p className={ProjectCSS.title_p_Label}>{data.projectName[lang]}:</p> 
-
                             <span className={ProjectCSS.title_span_Text}>BUYME APP</span>
                         </div> 
-
-
                          <div className={ProjectCSS.description_Container}>
                             <p className={ProjectCSS.description_p_Label}>{data.projectDescription[lang]}:</p> 
                             <span className={ProjectCSS.description_span_Text}>{data.projectData[0].pDescription[lang]}</span>
                         </div> 
-
                          <div className={ProjectCSS.tech_Container}>
                             <p className={ProjectCSS.tech_p_Label}>{data.projectTechnologies[lang]}:</p> 
                             <span className={ProjectCSS.tech_span_Text}>{data.projectData[0].pTech[lang]}
                             </span>
                         </div> 
-
-
                         <div className={ProjectCSS.frontrepo_Container}>
                             <p className={ProjectCSS.frontrepo_p_Label}>{data.projectFERepository[lang]}:</p> 
                             <a 
@@ -54,8 +67,6 @@ function Projects ({lang}){
                                 {data.projectClickHere[lang]}
                             </a>
                         </div> 
-
-
                         <div className={ProjectCSS.backrepo_Container}>
                             <p className={ProjectCSS.backrepo_p_Label}>{data.projectBERepository[lang]}: </p> 
                             <a 
@@ -64,8 +75,6 @@ function Projects ({lang}){
                                 {data.projectClickHere[lang]}
                             </a>
                         </div> 
-
-
                         {data.projectData[0].pDeploy && data.projectData[0].pDeploy!=="" && 
                         <div className={ProjectCSS.frontdeploy_Container}>
                             <p className={ProjectCSS.frontdeploy_p_Label}>{data.projectDeployed[lang]}: </p> 
@@ -76,9 +85,9 @@ function Projects ({lang}){
                             </a>
                         </div>
                         }
-
                     </div>  
-                    
+
+
 
                     <div className={ProjectCSS.project_Card_right_container}>
                         <div
@@ -102,13 +111,18 @@ function Projects ({lang}){
                             />
                         </div>
                     </div>
-                        
-                </div>
+                </div> */}
+                {/* Este de arriba es el final de la card de 1 proyecto             */}
+
+
+
+
+
+
 
 
 
             </div>  
-
 
 
 
