@@ -50,7 +50,8 @@ const data = {
             pTech: ["HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.", "HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api."],
             pFront: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
             pBack: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
-            pDeploy: ""
+            pDeploy: "",
+            pVideo: ["https://youtu.be/P2944P1AZcM", "https://youtu.be/os5HgswlHWM"]
         },
         {
             pName: ["BUYME APP2", "BUYMEAPP2"],
@@ -58,6 +59,7 @@ const data = {
             pTech: ["2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.", "2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api."],
             pFront: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
             pBack: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
+            
             pDeploy: "",
             pVideo: ["https://youtu.be/P2944P1AZcM", "https://youtu.be/os5HgswlHWM"]
         },

@@ -19,6 +19,7 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                             <span className={ProjectCardCSS.tech_span_Text}>{pData.pTech[lang]}
                             </span>
                         </div> 
+                        {pData.pFront && pData.pFront!=="" &&
                         <div className={ProjectCardCSS.frontrepo_Container}>
                             <p className={ProjectCardCSS.frontrepo_p_Label}>{projectFERepository[lang]}:</p> 
                             <a 
@@ -27,6 +28,8 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                                 {projectClickHere[lang]}
                             </a>
                         </div> 
+                        }
+                        {pData.pBack && pData.pBack!=="" && 
                         <div className={ProjectCardCSS.backrepo_Container}>
                             <p className={ProjectCardCSS.backrepo_p_Label}>{projectBERepository[lang]}: </p> 
                             <a 
@@ -35,6 +38,7 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                                 {projectClickHere[lang]}
                             </a>
                         </div> 
+                        }   
                         {pData.pDeploy && pData.pDeploy!=="" && 
                         <div className={ProjectCardCSS.frontdeploy_Container}>
                             <p className={ProjectCardCSS.frontdeploy_p_Label}>{projectDeployed[lang]}: </p> 
@@ -47,29 +51,21 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                         }
                     </div>  
                     <div className={ProjectCardCSS.project_Card_right_container}>
+                        
+                        {pData.pVideo && pData.pVideo.length>0 && pData.pVideo.map(x=>
                         <div
                             className={ProjectCardCSS.video_Container}>
                             <ReactPlayer
-                                url="https://youtu.be/P2944P1AZcM"
+                                url={x}
                                 playing={false}
                                 controls={true}
                                 width="100%"
                                 height="100%"
                             />
-                        </div> 
-                        <div
-                            className={ProjectCardCSS.video_Container}>
-                            <ReactPlayer
-                                url="https://youtu.be/os5HgswlHWM"
-                                playing={false}
-                                controls={true}
-                                width="100%"
-                                height="100%"
-                            />
-                        </div>
+                        </div>) 
+                        }
                     </div>
                 </div> 
-        
     )
 }
 
