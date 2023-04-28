@@ -34,20 +34,14 @@ function Projects ({lang}){
                         </div> 
 
 
-
-
-
-
-
                          <div className={ProjectCSS.description_Container}>
                             <p className={ProjectCSS.description_p_Label}>{data.projectDescription[lang]}:</p> 
-                            <span className={ProjectCSS.description_span_Text}>Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry. Consiste en una app cliente-servidor para gestionar un e-commerce. Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado. utiliza a mercado pago como pasarela de pago. Entre las tecnologias usadas esta js, node, PostGreSQL, nodemailer, mercadopago API, express, Sequelize, CSS, HTML.
-                            </span>
+                            <span className={ProjectCSS.description_span_Text}>{data.projectData[0].pDescription[lang]}</span>
                         </div> 
 
                          <div className={ProjectCSS.tech_Container}>
                             <p className={ProjectCSS.tech_p_Label}>{data.projectTechnologies[lang]}:</p> 
-                            <span className={ProjectCSS.tech_span_Text}>Js, NodeJs, ReactJs, ExpressJS, Sequelize, PostgreSQL
+                            <span className={ProjectCSS.tech_span_Text}>{data.projectData[0].pTech[lang]}
                             </span>
                         </div> 
 
@@ -56,7 +50,7 @@ function Projects ({lang}){
                             <p className={ProjectCSS.frontrepo_p_Label}>{data.projectFERepository[lang]}:</p> 
                             <a 
                                 className={ProjectCSS.link_External}
-                                href="https://github.com/JoseCorrientes/Buyme-app-PF.git">
+                                href={data.projectData[0].pFront}>
                                 {data.projectClickHere[lang]}
                             </a>
                         </div> 
@@ -66,21 +60,22 @@ function Projects ({lang}){
                             <p className={ProjectCSS.backrepo_p_Label}>{data.projectBERepository[lang]}: </p> 
                             <a 
                                 className={ProjectCSS.link_External}
-                                href="https://github.com/JoseCorrientes/Buyme-app-PF.git">
+                                href={data.projectData[0].pBack}>
                                 {data.projectClickHere[lang]}
                             </a>
                         </div> 
 
 
+                        {data.projectData[0].pDeploy && data.projectData[0].pDeploy!=="" && 
                         <div className={ProjectCSS.frontdeploy_Container}>
                             <p className={ProjectCSS.frontdeploy_p_Label}>{data.projectDeployed[lang]}: </p> 
-
                             <a 
                                 className={ProjectCSS.link_External}
-                                href="https://github.com/JoseCorrientes/Buyme-app-PF.git">
+                                href={data.projectData[0].pDeploy}>
                                 {data.projectClickHere[lang]}
                             </a>
                         </div>
+                        }
 
                     </div>  
                     
