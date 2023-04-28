@@ -21,9 +21,6 @@ function App() {
             setLang(0);
         }
       }  
-    
-
-  
 
   return (
     <BrowserRouter>
