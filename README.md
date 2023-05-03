@@ -1,3 +1,3 @@
 
-<h1> pro-portfolio mobile</h1>
-Mobile version under construction
+<h1> Pro-Portfolio Responsive</h1>
+Final version of my Pro Portfolio. It's Responsive Version. With a breakpoint al 990px with.
