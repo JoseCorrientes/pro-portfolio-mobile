@@ -21,8 +21,6 @@ function Skills({lang}) {
                 <div className={SkillsCSS.element_Card_Title}>
                     <p>{data.technologies[lang]}</p>
                 </div>
-
-
                 <div className={SkillsCSS.element_Card}>
                     <span className={SkillsCSS.js}>
                         <span className={SkillsCSS.tip}>Javascript.</span>
@@ -79,14 +77,9 @@ function Skills({lang}) {
                         <span className={SkillsCSS.tip}>Wordpress CMS.</span>
                     </span>
               </div>
-              
               <div className={SkillsCSS.element_Card_Title}>
                 <p>{data.softSkills[lang]}</p>
               </div>
-
-
-
-
               <div className={SkillsCSS.element_Card_Soft}>
                 <p className={SkillsCSS.element_card_Soft_Line}>
                   {data.soft1[lang]}
@@ -103,17 +96,9 @@ function Skills({lang}) {
                 {data.soft6[lang]}
                 </p>
               </div>
-
-
-
-
-
-
               <div className={SkillsCSS.element_Card_Title}>
                 <p>{data.languageTitle[lang]}</p>
               </div>
-
-
               <div className={SkillsCSS.element_Card_Soft}>
                 <div className={SkillsCSS.element_Card_Lang_Title}>{data.languageSpanish[lang]}</div>
                     <div className={SkillsCSS.element_Card_Lang_Container}>
@@ -122,8 +107,8 @@ function Skills({lang}) {
                         <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageS[lang]}:</p>
                         <span>{data.languageN[lang]}</span>
                     </div>
-                <div className={SkillsCSS.element_Card_Lang_Title}>{data.languageEnglish[lang]}</div>
-                    <div className={SkillsCSS.element_Card_Lang_Container}>
+                 <div className={SkillsCSS.element_Card_Lang_Title}>{data.languageEnglish[lang]}</div>
+                   <div className={SkillsCSS.element_Card_Lang_Container}>
                         <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageW[lang]}:</p>
                         <span>{data.languageLI[lang]}</span>
                         <p className={SkillsCSS.element_Card_Lang_Item}>{data.languageS[lang]}:</p>
@@ -132,9 +117,8 @@ function Skills({lang}) {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
-
       <div
                 className={SkillsCSS.button_Back_Menu_Lower_Container}
                 >               
@@ -142,10 +126,8 @@ function Skills({lang}) {
                         to= "/">
                         <button className={SkillsCSS.button_Back_Menu_Button}>{data.backHome[lang]}
                         </button>
-                </Link>
-     </div>   
-
-
+                </Link>*
+     </div>
     </div>
   );
 }

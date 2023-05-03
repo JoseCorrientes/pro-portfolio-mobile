@@ -1,13 +1,245 @@
-.container {
-    width: 100%;
-    height: 200px;
-    border: 3px solid red;
-    color: white
+.project_Card {
+    margin: 0 auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
 }
-
-
-@media screen and (max-width: 990px) {
-
+.project_Card_left_container {
+    flex-basis: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: rgba(119, 117, 117, 0.4);
+    border: 2px solid rgba(255,156, 0, 0.3); 
+    border-radius: 4rem 4rem 0 0;
+    box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
+    backdrop-filter: blur(.5rem);
+}
+.title_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.project_Card_left_container .title_p_Label {
+    flex-basis: 40%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.project_Card_left_container .title_span_Text {
+    flex-basis: 60%;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: white;
+    background-color: rgba(5, 18, 28, 0.6);
+    text-shadow: .2rem .2rem rgb(0, 0, 0);
+}
+.description_Container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .description_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.project_Card_left_container .description_span_Text {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    background-color: rgba(0,0,0, .4);
+}
+.tech_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    padding-top: 1rem;
+}
+.project_Card_left_container .tech_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.project_Card_left_container .tech_span_Text {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-size: 200;
+    line-height: 2rem;
+    color: white;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    background-color: rgba(0,0,0, .4);
+}
+.backrepo_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+}
+.project_Card_left_container .backrepo_p_Label {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.backrepo_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+    background-color: rgba(0,0,0, .4); 
+}
+.frontrepo_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .frontrepo_p_Label {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: white;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.frontrepo_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+    background-color: rgba(0,0,0, .4);
+}    
+.frontdeploy_Container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .frontdeploy_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: white;
+    text-shadow: .3rem .3rem .3rem black;
+}
+.frontdeploy_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+    background-color: rgba(0,0,0, .4);    
+}
+.project_Card_right_container {
+    padding-top: 3rem;    
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 4rem 4rem;
+    background-color: rgba(119, 117, 117, 0.2);
+}
+.video_Container {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 300px;
+    height: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+} 
+@media screen and (min-width: 990px) {
     .project_Card {
         margin: 0 auto;
         width: 95vw;
@@ -19,288 +251,33 @@
         margin-bottom: 5rem;
     }
     .project_Card_left_container {
-        flex-basis: 100%;
+        flex-basis: 60%;
         height: auto;
-        padding-top: 3rem;
         padding-bottom: 1rem;
+        padding-top: 1.5rem;
         background-color: rgba(119, 117, 117, 0.4);
         border: 2px solid rgba(255,156, 0, 0.3); 
-        border-radius: 4rem 4rem 0 0;
+        border-radius: 4rem 0 0 4rem;
         box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
         backdrop-filter: blur(.5rem);
-    }
-    .title_Container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-    .project_Card_left_container .title_p_Label {
-        flex-basis: 40%;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-        color: white;
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .project_Card_left_container .title_span_Text {
-        flex-basis: 60%;
-        display: block;
-        text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        font-weight: 300;
-        color: white;
-        background-color: rgba(5, 18, 28, 0.6);
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-    }
-    .description_Container {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        width: 90%;
-        height: auto;
-        padding-top: 1rem;
-    }
-    .project_Card_left_container .description_p_Label {
-        flex-basis: 100%;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        color: white;
-        padding-bottom: 1rem;
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .project_Card_left_container .description_span_Text {
-        flex-basis: 100%;
-        font-size: 1.5rem;
-        font-weight: 200;
-        line-height: 2rem;
-        color: white;
-        padding: .5rem;
-        padding-bottom: 2rem;
-        background-color: rgba(0,0,0, .4);
-    }
-    .tech_Container {
-        margin: 0 auto;
-        margin-top: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        width: 90%;
-        padding-top: 1rem;
-    }
-    .project_Card_left_container .tech_p_Label {
-        flex-basis: 100%;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        color: white;
-        padding-bottom: 1rem;
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .project_Card_left_container .tech_span_Text {
-        flex-basis: 100%;
-        font-size: 1.5rem;
-        font-size: 200;
-        line-height: 2rem;
-        color: white;
-        padding: .5rem;
-        padding-bottom: 2rem;
-        background-color: rgba(0,0,0, .4);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .link_External {
-        width: 100%;
-        overflow: hidden;
-        background-color: green;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
-
-        text-decoration: none;
-        cursor: pointer;
-        text-shadow: .1rem .1rem .1rem black;
-    } */
-    /* .link_External:active {
-        color: var(--GithubLinkMobileColor);
-        text-shadow: .1rem .1rem .1rem black;
-    } */
-    /* .link_External:visited {
-        color: var(--GithubLinkMobileColor);
-        text-shadow: .1rem .1rem .1rem black;
-    } */
-    /* .link_External:link {
-        color: var(--GithubLinkMobileColor);
-        text-shadow: .1rem .1rem .1rem black;
-    } */
-    /* .link_External:hover {
-        background-color: black;
-        color: white;
-        transition: .4s;
-    } */
-    .backrepo_Container {
-        margin: 0 auto;
-        margin-top: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        width: 90%;
-        height: auto;
-        /* padding-top: 1rem; */
-    }
-    .project_Card_left_container .backrepo_p_Label {
-        width: 100%;
-        height: 1.5rem;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        color: white;
-        padding-bottom: 1rem;
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .backrepo_Container .link_External {
-        margin: 0 auto;
-        width: 100%;
-        height: 1.7rem;
-        text-align: left;
-        font-size: 1.7rem;
-        font-weight: 200;
-        line-height: 1.7rem;
-        color: white;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        padding: .5rem;
-        padding-bottom: 2rem;
-        cursor: pointer;
-        text-shadow: .1rem .1rem .1rem black;
-        background-color: rgba(0,0,0, .4); 
-    }
-    .frontrepo_Container {
-        margin: 0 auto;
-        margin-top: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        width: 90%;
-        height: auto;
-        padding-top: 1rem;
-    }
-    .project_Card_left_container .frontrepo_p_Label {
-        width: 100%;
-        height: 1.5rem;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        color: white;
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .frontrepo_Container .link_External {
-        margin: 0 auto;
-        width: 100%;
-        height: 1.7rem;
-        text-align: left;
-        font-size: 1.7rem;
-        font-weight: 200;
-        line-height: 1.7rem;
-        color: white;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        padding: .5rem;
-        padding-bottom: 2rem;
-        cursor: pointer;
-        text-shadow: .1rem .1rem .1rem black;
-        background-color: rgba(0,0,0, .4);
-    }    
-    .frontdeploy_Container {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        width: 90%;
-        height: auto;
-        padding-top: 1rem;
-    }
-    .project_Card_left_container .frontdeploy_p_Label {
-        flex-basis: 100%;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        /* color: black; */
-        color: white;
-        /* padding-bottom: 1rem; */
-        /* text-shadow: .3rem .3rem .3rem rgb(152, 150, 150); */
-        text-shadow: .3rem .3rem .3rem black;
-    }
-    .frontdeploy_Container .link_External {
-        margin: 0 auto;
-        width: 100%;
-        height: 1.7rem;
-        text-align: left;
-        font-size: 1.7rem;
-        font-weight: 200;
-        line-height: 1.7rem;
-        color: white;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        padding: .5rem;
-        padding-bottom: 2rem;
-        cursor: pointer;
-        text-shadow: .1rem .1rem .1rem black;
-        background-color: rgba(0,0,0, .4);    
-    }
+    }   
     .project_Card_right_container {
         padding-top: 3rem;    
-        flex-basis: 100%;
+        flex-basis: 40%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        border-radius: 0 0 4rem 4rem;
+        border-radius: 0 4rem 4rem 0;
         background-color: rgba(119, 117, 117, 0.2);
     }
     .video_Container {
         margin: 0 auto;
         width: 98%;
-        max-width: 300px;
-        height: 18rem;
+        max-width: 350px;
+        height: 20rem;
         padding-top: 1rem;
         padding-bottom: 3rem;
-    } 
-
+    }
 }

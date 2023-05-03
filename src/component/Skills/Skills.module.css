@@ -1,5 +1,4 @@
 header {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,136 +7,123 @@ header {
     height: 4rem;
 }
 header .page_Title {
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 3rem;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 2.5rem;
-    color: var(--PageTitleColor);
+    padding-bottom: 0.25rem;
+    color: white;
     text-shadow: .2rem .2rem rgb(0, 0, 0);
-    margin-right: 1rem;
 }
-
-/* .skills_Container {
+.link_Visibility {
+    flex-basis: 50%;
+    display: block;
+    text-align: right;
+    padding-right: 2rem;
+}
+.button_Back_Menu {
+    width: 20vw;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1rem;
+    margin-top: .5rem;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+.button_Back_Menu:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+.button_Back_Menu_Lower_Container {
+    margin-top: 1rem;
+    display: inline-block;
+    width: 80%;
+    height: 3rem;
+    margin-left: calc(10%);
+    margin-bottom: 1rem;
+}
+.button_Back_Menu_Button {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1rem;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+} 
+.button_Back_Menu_Button:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+.skills_Container {
+    margin: 0 auto;
     margin-top: 2rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    width: 100vw;
-    height: 94vh;
-    border: 2px solid orange;
- } */
-
-
-
-
-
-
-/* .skill_Card_Main_Container {
-    position: absolute;
-    top: 0rem;
-    width: 60vw;
-    height: 85vh;
+    width: 95vw;
+    height: auto;
+}
+.skill_Card_Main_Container {
+    width: 95vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     row-gap: 2rem;
-    padding-top: 4rem ;
-  
     border: 2px solid rgba(255,156, 0, 0.3); 
     border-radius: 4rem 4rem 4rem 4rem;
     background-color: rgba(119, 117, 117, 0.4);
     box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
     backdrop-filter: blur(.5rem);
-    overflow: hidden;
-  
-} */
-
-
-/* .skill_Card {
-    position: absolute;
-    top: 0rem;
-    width: 60vw;
-    height: 85vh;
+} 
+.skill_Card {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    row-gap: 2rem;
-    padding-top: 4rem ;
-    overflow-y: auto;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .element_Card_Title {
-    width: 30vw;
-    height: 5rem;
+    padding-top: 2rem ; 
+}
+.element_Card_Title {
+    width: 60vw;
+    height: auto;
     text-align: center;
-    padding-bottom: 1.25rem;
-    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 200;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem; 
     color: white;
     background-color: rgba(5, 18, 28, 0.6);
-    text-shadow: .2rem .2rem rgb(0, 0, 0);
+    text-shadow: .3rem .3rem .3rem black;
 }
 .element_Card {
+    width: 90%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 1rem;
     padding: 1rem;
-    margin-bottom: 4rem;
-    justify-content: space-evenly;
-    width: 50vw;
-    height: auto;
+    margin-bottom: 2rem;
     background-color: rgba(45, 44, 44, .5);
     box-shadow: .3rem .3rem .7rem rgb(0, 0, 0, .8);
-} */
-
-
-
-
-
-
-
-
-/* Este solo class estaba inactivo
-/* .element_Card span {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    background-color: red;
-    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-/* .element_Card .js {
+} 
+.element_Card .js {
     position: relative;
     display: inline-block;
     width: 70px;
@@ -147,26 +133,8 @@ header .page_Title {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-} */
-
-
-
-
-
-/*este elemento estaba inactivo
-/* .element_Card .js:hover .tip {
-    visibility: visible;
-} */
-
-
-
-
-
-
-
-
-
-/* .element_Card .js:hover .tip,
+} 
+.element_Card .js:hover .tip,
 .element_Card .ts:hover .tip,
 .element_Card .html:hover .tip,
 .element_Card .css:hover .tip,
@@ -185,26 +153,27 @@ header .page_Title {
 .element_Card .azure:hover .tip,
 .element_Card .wordpress:hover .tip {
     visibility: visible;
-} */
-/* .tip {
-   visibility: hidden;
-   position: absolute;
-   top: 75px;
-   left: -28px;
-   width: 12rem;
-   height: auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color: white;
-   border: 1px solid grey;
-   border-radius: .4rem;
-   font-size: 1.5rem;
-   font-weight: 300;
-   color: black;
-   background-color: white;
-   z-index: 10;
+} 
+.tip {
+    visibility: hidden;
+    position: absolute;
+    top: 70px;
+    left: px;
+    text-align: center;
+    width: 8rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: .4rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    z-index: 10;
 }
 .element_Card .ts {
     position: relative;
@@ -394,162 +363,120 @@ header .page_Title {
     box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
 }
 .element_Card_Soft {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 4rem;
-    justify-content: flex-start;
-    align-items: center;
-    width: 35vw;
+    width: 90%;
     height: auto;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
     background-color: rgba(45, 44, 44, .5);
     box-shadow: .3rem .3rem .7rem rgb(0, 0, 0, .8);
 }
 .element_card_Soft_Line {
     color: white;
-    width: 30vw;
+    width: 100%;
     height: 5rem;
-    text-align: left;
+    text-align: center;
     padding-bottom: 1.25rem;
     padding-top: 1.25rem;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 2rem;
     font-weight: 200;
-    line-height: 2.5rem;
-    color: white;
+    line-height: 2rem;
     text-shadow: .2rem .2rem rgb(0, 0, 0);
 }
 .element_Card_Lang_Title {
-    width: 30vw;
-    height: 5rem;
+    margin: 0 auto;
+    width: 60vw;
+    height: 3rem;
     text-align: center;
     padding-bottom: 1.25rem;
     padding-top: 1.25rem;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 100;
-    line-height: 5rem;
+    line-height: 3rem;
     padding-top: 0rem;
     color: white;
     background-color: rgb(4, 27, 64);
     text-shadow: 0.3rem 0.3rem 0.8rem rgb(8, 8, 8);
 }
 .element_Card_Lang_Container {
+    margin: 0 auto;
     width: 30vw;
     height: auto; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: center; 
     gap: 2rem;
-    
     padding-top: 3rem;
     padding-bottom: 3rem;
-}
-.element_Card_Lang_Item {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     color: white;
     text-shadow: .2rem .2rem rgb(0, 0, 0);
 }
-.element_Card_Lang_Item span {
-    font-size: 2rem;
+.element_Card_Lang_Item {
+    padding-top: 1rem;
+    display: flex;
+    flex-basis: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
     font-weight: 100;
-    line-height: 2.5rem;
+    line-height: 1.8rem;
+    color: white;
+    text-shadow: .2rem .2rem rgb(0, 0, 0);
+}
+.element_Card_Lang_Container span {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2rem;
     color: rgba(255,255,255,0.8);
     text-shadow: .2rem .2rem rgb(0, 0, 0);
-} */
-
-@media screen and (max-width: 990px) {
-    header .page_Title {
-        flex-basis: 50%;
-        text-align: left;
-        padding-left: 3rem;
-        font-size: 2rem;
-        line-height: 2rem;
-        font-weight: 600;
-        /* color: var(--PageTitleColor); */
-        color: white;
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-    }
-
-    .link_Visibility {
-        flex-basis: 50%;
-        display: block;
-        text-align: right;
-        padding-right: 2rem;
-    }
-    .button_Back_Menu {
-        width: 20vw;
-        height: 3rem;
-        font-size: 1rem;
-        font-weight: 200;
-        line-height: 1rem;
-        margin-top: .5rem;
-        color: white;
-        border: 1px solid black;
-        background-color: black;
-    }
-    .button_Back_Menu:hover {
-        cursor: pointer;
-        border: 1px solid gray;
-        background-color: white;
-        color: black;
-    }
-    .button_Back_Menu_Lower_Container {
-        margin-top: 1rem;
-        display: inline-block;
-        width: 80%;
-        height: 3rem;
-        margin-left: calc(10%);
-        margin-bottom: 1rem;
-    }
-    .button_Back_Menu_Button {
+    padding-bottom: 1rem;
+} 
+@media screen and (min-width: 990px) {
+    header {
         width: 100%;
-        height: 3rem;
-        font-size: 1rem;
-        font-weight: 200;
-        line-height: 1rem;
-        color: white;
-        border: 1px solid black;
-        background-color: black;
-    } 
-    .button_Back_Menu_Button:hover {
-        cursor: pointer;
-        border: 1px solid gray;
-        background-color: white;
-        color: black;
+        background-color: transparent;
+    }    
+    .button_Back_Menu_Lower_Container {
+        display: none;
     }
-
     .skills_Container {
         margin: 0 auto;
-        margin-top: 2rem;
-        width: 95vw;
-        height: auto;
-     }
+        margin-top: 1rem;
+        width: 80%;
+        height: 83vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        overflow-y: scroll;
+        border: 2px solid rgba(255,156, 0, 0.3); 
+        border-radius: 4rem 0 0 4rem;
+    }
     .skill_Card_Main_Container {
-        width: 95vw;
-        height: 100%;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         row-gap: 2rem;
-        border: 2px solid rgba(255,156, 0, 0.3); 
-        border-radius: 4rem 4rem 4rem 4rem;
         background-color: rgba(119, 117, 117, 0.4);
         box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
         backdrop-filter: blur(.5rem);
-        /* overflow: hidden; */
+        border-radius: 0 0 0 0;
     } 
-    /*prueba skil kard*/
     .skill_Card {
         width: 100%;
+        max-width: 900px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -558,7 +485,7 @@ header .page_Title {
         padding-top: 2rem ; 
     }
     .element_Card_Title {
-        width: 60vw;
+        width: 60%;
         height: auto;
         text-align: center;
         padding-bottom: 0.5rem;
@@ -571,308 +498,12 @@ header .page_Title {
         line-height: 2rem; 
         color: white;
         background-color: rgba(5, 18, 28, 0.6);
-        /* text-shadow: .2rem .2rem rgb(0, 0, 0); */
         text-shadow: .3rem .3rem .3rem black;
     }
-    .element_Card {
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem;
-        margin-bottom: 2rem;
-        background-color: rgba(45, 44, 44, .5);
-        box-shadow: .3rem .3rem .7rem rgb(0, 0, 0, .8);
-    } 
-    /* Este solo class estaba inactivo
-/* .element_Card span {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    background-color: red;
-    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-} */
-    .element_Card .js {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoJs200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    } 
-    .element_Card .js:hover .tip,
-    .element_Card .ts:hover .tip,
-    .element_Card .html:hover .tip,
-    .element_Card .css:hover .tip,
-    .element_Card .redux:hover .tip,
-    .element_Card .react:hover .tip,
-    .element_Card .aggrid:hover .tip,
-    .element_Card .node:hover .tip,
-    .element_Card .express:hover .tip,
-    .element_Card .sequelize:hover .tip,
-    .element_Card .postgres:hover .tip,
-    .element_Card .git:hover .tip,
-    .element_Card .github:hover .tip,
-    .element_Card .agile:hover .tip,
-    .element_Card .scrum:hover .tip,
-    .element_Card .trello:hover .tip,
-    .element_Card .azure:hover .tip,
-    .element_Card .wordpress:hover .tip {
-        visibility: visible;
-    } 
-    .tip {
-        visibility: hidden;
-        position: absolute;
-        top: 70px;
-        left: px;
-        text-align: center;
-        width: 8rem;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        border: 1px solid grey;
-        border-radius: .4rem;
-        font-size: 1.5rem;
-        font-weight: 300;
-        color: black;
-        background-color: white;
-        z-index: 10;
-    }
-
-/*este elemento estaba inactivo    
-/* .element_Card .js:hover .tip {
-    visibility: visible;
-} */    
-    .element_Card .ts {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoTs200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .html {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoHtml200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .css {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoCss200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .react {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoReact200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .redux {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoRedux200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .aggrid {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoAggrid200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .node {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoNode200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .express {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoExpress200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .sequelize {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoSequelize200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .postgres {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoPostgres200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .git {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoGit200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .github {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoGithub200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .agile {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoAgile200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .scrum {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoScrum200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .trello {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoTrello200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .azure {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoAzure200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-    .element_Card .wordpress {
-        position: relative;
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        background-image: url("../../images/logoWordpress200.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
-    }
-
-    .element_Card_Soft {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        margin-bottom: 3rem;
-        background-color: rgba(45, 44, 44, .5);
-        box-shadow: .3rem .3rem .7rem rgb(0, 0, 0, .8);
-    }
-    .element_card_Soft_Line {
-        color: white;
-        width: 100%;
-        height: 5rem;
-        text-align: center;
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
-        font-family: 'Fira Sans Extra Condensed', sans-serif;
-        /* font-size: 1.5rem;
-        font-weight: 200;
-        line-height: 1.5rem; */
-        font-size: 2rem;
-        font-weight: 200;
-        line-height: 2rem;
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-    }
-
-
-
     .element_Card_Lang_Title {
         margin: 0 auto;
         width: 60vw;
+        max-width: 80%;
         height: 3rem;
         text-align: center;
         padding-bottom: 1.25rem;
@@ -886,70 +517,4 @@ header .page_Title {
         background-color: rgb(4, 27, 64);
         text-shadow: 0.3rem 0.3rem 0.8rem rgb(8, 8, 8);
     }
-    .element_Card_Lang_Container {
-        margin: 0 auto;
-        width: 30vw;
-        height: auto; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; 
-        gap: 2rem;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-size: 1.5rem;
-        font-weight: 200;
-        line-height: 1.5rem;
-        color: white;
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-    }
-    /* .element_Card_Lang_Item {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        background-color: red;
-    } */
-
-    .element_Card_Lang_Item {
-        /* width: 100%; */
-        padding-top: 1rem;
-        display: flex;
-        /* flex-direction: row; */
-
-        flex-basis: 100%;
-        font-family: 'Orbitron', sans-serif;
-        /* font-family: 'Fira Sans Extra Condensed', sans-serif; */
-        font-size: 1.8rem;
-        font-weight: 100;
-        line-height: 1.8rem;
-        color: white;
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-    }
-
-
-
-    .element_Card_Lang_Container span {
-        flex-basis: 100%;
-        text-align: center;
-        font-size: 2rem;
-        font-weight: 200;
-        line-height: 2rem;
-        color: rgba(255,255,255,0.8);
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
-        padding-bottom: 1rem;
-    } 
-    
-
-
-
-
-
-
-
-
-
-
-
 }
-

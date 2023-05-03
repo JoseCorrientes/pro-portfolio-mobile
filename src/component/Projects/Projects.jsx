@@ -17,8 +17,12 @@ function Projects ({lang}){
                     </button>
                 </Link>
             </header>
+
+
+            
             <div className={ProjectCSS.projects_Container}>
-            {data.projectData && data.projectData.length>0 && data.projectData.map(item=> 
+            
+             {data.projectData && data.projectData.length>0 && data.projectData.map(item=> 
                 <ProjectCard
                     projectName={data.projectName}
                     projectDescription={data.projectDescription}
@@ -30,8 +34,8 @@ function Projects ({lang}){
                     pData={item}
                     lang={lang}
                 />)
-            }
-            </div>  
+            } 
+            </div> 
             <div
                 className={ProjectCSS.button_Back_Menu_Lower_Container}
                 >               

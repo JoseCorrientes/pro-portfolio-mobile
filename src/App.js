@@ -4,8 +4,6 @@ import { LandingPage } from './component/LandingPage/LandingPage';
 import { Projects } from './component/Projects/Projects.jsx';
 import { Skills } from './component/Skills/Skills';
 import { Link } from "react-router-dom";
-
-import {data} from "./text/text";
 import { useState } from 'react';
 
 
@@ -25,23 +23,18 @@ function App() {
   return (
     <BrowserRouter>
         <div className="App">
-            
-            
             <Routes>
                 <Route path="/" element={<LandingPage
                                            toggleLanguage={toggleLanguage}
                                            lang={lang} 
-                
                 />}></Route>
                 <Route path="/Projects" element={<Projects
                                             lang={lang}
-                
                 />}></Route>
                 <Route path="/Skills" element={<Skills
                                             lang={lang}
                 />}></Route>
             </Routes>
-
             <footer className={AppCSS.footer_Container}>
                     <ol>
                         <li>
@@ -52,7 +45,6 @@ function App() {
                             </Link>
                         </li>
                         <li>
-
                             <Link to="/Projects">
                                 <button>
                                         PROJECTS
@@ -72,10 +64,6 @@ function App() {
                                 </button>
                             </Link>
                         </li>
-                        
-
-
-
                     </ol>
             </footer>
         </div>

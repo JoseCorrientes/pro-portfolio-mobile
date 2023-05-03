@@ -3,13 +3,11 @@ import Photo from "../../images/FotoJosePerfil.png";
 import { Link } from "react-router-dom";
 import CV from "../../files/Resume.pdf";
 import {data } from "../../text/text";
-import { useState } from "react";
 
 function LandingPage({toggleLanguage, lang}) {
 
   return (
     <div className={LandingPageCSS.main_Container}>
-        
         <div  
             className={LandingPageCSS.language_Bar}>
                 <p>{data.language[lang]}</p>
@@ -30,8 +28,6 @@ function LandingPage({toggleLanguage, lang}) {
                         ></label>   
                 </div>
         </div>
-
-
         <div className={LandingPageCSS.upper_Container}>
             <div className={LandingPageCSS.msj_Container}>
                 <p>
@@ -49,30 +45,13 @@ function LandingPage({toggleLanguage, lang}) {
                 <img src={Photo} alt="Jose Garcia"></img>
             </div>
         </div>  
-
-
-
-
-
-
-
-
-
-
-
     <div className={LandingPageCSS.lower_Container}>
-
-
-                    
                     <div className={LandingPageCSS.buttons_Container}>
-
                             <div className={LandingPageCSS.button_Proyects}>
                                 <Link to="/Projects">
                                 <button>{data.buttonProyect[lang]}</button>
                                 </Link>
                             </div>
-
-
                             <div className={LandingPageCSS.button_Cv}>
                                 <a
                                 href={CV}
@@ -83,28 +62,13 @@ function LandingPage({toggleLanguage, lang}) {
                                 {data.buttonCV[lang]}
                                 </a>
                                 </div>
-
-
-
-
-                                
                             <div className={LandingPageCSS.button_Skills}>
                                 <Link to="/Skills">
                                 <button>{data.buttonSkills[lang]}</button>
                                 </Link>
                             </div> 
                     </div>
-
-
-
-
-
-
-
-
-        
                 <div className={LandingPageCSS.contactus_Container}>
-
                         <h1>{data.information[lang]}</h1>
                         <br />
                         <span
@@ -115,9 +79,6 @@ function LandingPage({toggleLanguage, lang}) {
                             href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
                             https://www.linkedin.com/in/joseernestogarciadeveloper
                         </a>
-                        
-
-
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
                             >Github: </span>
@@ -126,7 +87,6 @@ function LandingPage({toggleLanguage, lang}) {
                             href="https://github.com/JoseCorrientes">
                             https://github.com/JoseCorrientes
                         </a>
-
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
                             >@Mail: </span>
@@ -135,7 +95,6 @@ function LandingPage({toggleLanguage, lang}) {
                             href="mailto: josernestogarcia609@gmail.com">
                             josernestogarcia609@gmail.com
                         </a>
-
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
                             >{data.phone[lang]}: </span>
@@ -144,7 +103,6 @@ function LandingPage({toggleLanguage, lang}) {
                             >
                             (+54) 9 3794 599549
                         </p>
-
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
                             >{data.country[lang]}: </span>
@@ -153,16 +111,8 @@ function LandingPage({toggleLanguage, lang}) {
                             >
                             Argentina (Corrientes)
                         </p>
-
                 </div> 
-
-
-
-
-
-
     </div> 
-
     </div>
   );
 }

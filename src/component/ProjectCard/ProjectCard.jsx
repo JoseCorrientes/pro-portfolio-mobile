@@ -51,7 +51,6 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                         }
                     </div>  
                     <div className={ProjectCardCSS.project_Card_right_container}>
-                        
                         {pData.pVideo && pData.pVideo.length>0 && pData.pVideo.map(x=>
                         <div
                             className={ProjectCardCSS.video_Container}>
