@@ -285,7 +285,8 @@ body {
         color: rgb(24, 51, 221);
         text-shadow: 0.3rem 0.3rem 0.8rem white;
     }
-    .contact_Link {
+    .contact_Link,
+    .contact_Link1 {
         display: inline-block;
         margin: 0 auto;
         margin-left: 5%;
@@ -312,9 +313,6 @@ body {
         /* text-shadow: .2rem .2rem .1rem rgb(13, 13, 13);
     } */
     /*ACA TERMINAL EL GENERAL MOBILE*/
-
-
-
 
 
 @media SCREEN and (min-width: 990px) {
@@ -458,30 +456,33 @@ body {
             height: 45%;
         }
         .button_Cv a {
+            flex-basis: 100%;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            /* width: 100%; */
             height: 100%;
             font-size: 2rem;
             font-weight: 200;
             text-shadow: .2rem .2rem rgb(0, 0, 0);
             color: white;
+           
             border: 1px solid white;
-            box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
             backdrop-filter: blur(.8rem);
             border-radius: 0 0 0 4rem ;
-            border-left: 0px;
             box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
         }
-        .button_Cv button:hover {
+        .button_Cv a:hover {
             transform:scale(.8);
             transition: 500ms;
+            background-color: rgba(161, 158, 158, .2);
             border: 2px solid white;
             box-shadow: 1rem 1rem 10rem lightblue;
             backdrop-filter: grayscale(100%);
             color: white;
+
+
         }
         .button_Skills {
             display: flex;
@@ -512,90 +513,104 @@ body {
             box-shadow: 1rem 1rem 10rem lightblue;
             backdrop-filter: grayscale(100%);
             color: white;
-        }        
+        }   
         .contactus_Container {
             flex-basis: 75%;
             height: 100%;
             margin-top: 0px;
-            /* width: 67%; */
-            /* height: 100; */
             display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
-            /*align-items: center; */ 
-            /* padding: 2rem; */
+            align-items: flex-start;
+            gap: 0px;
             padding: 0rem;
             border: 2px solid rgba(255,156, 0, 0.3); 
-            border-radius: 0 0 4rem 20rem;
+            border-radius: 0 0 4rem 10rem;
             box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
             backdrop-filter: blur(.1rem) invert(70%);
         }
 
+        .container_Linkedin_title {
+            flex-basis: 100%;
+            color: rgb(24, 51, 221);
+            text-shadow: 0.3rem 0.3rem 0.8rem white;
+        }
+        .container_OtherLink_title {
+            color: white;
+            flex-basis: 50%;
+            text-align: left;
+            color: rgb(24, 51, 221);
+            text-shadow: 0.3rem 0.3rem 0.8rem white;
+        }
 
+        /*esto estoy viendo */
+        .contactus_Container .contact_Link {
+            
+            color: red;
+            display: inline-block;
+            margin: 0 auto;
+            margin-left: 5%;
+            width: 90%;
+            height: auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: center;
+            font-size: 1.7rem;
+            font-weight: 200;
+            line-height: 1.7rem;
+            color: white;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            margin-bottom: 2rem;
+        
+        }
+        .contactus_Container .contact_Link1 {
+            
+            color: blue;
+            flex-basis: 50%;
+            display: inline-block;
+            margin: 0 auto;
+            /* margin-left: 5%; */
+            /* width: 90%; */
+            height: auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left;
+            font-size: 1.7rem;
+            font-weight: 200;
+            line-height: 1.7rem;
+            color: white;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+        }
 
         .contactus_Container h1 {
-            padding-top: 1rem;
+            flex-basis: 100%;
+            text-align: center;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
             font-size: 2rem;
             font-weight: 400;
             line-height: 2rem;
             color: var(--PageTitleColor);
             text-shadow: .2rem .2rem rgb(0, 0, 0);
-            
         }
-        .contactus_Container p {
-            font-size: 1.5rem;
-            font-weight: 200;
-            line-height: 1.5;
-            color: white;
+        .contactus_Container a {
+            font-size: 1rem;
+            font-weight: 100;
+            line-height: 1rem;
             text-shadow: .2rem .2rem .1rem rgb(13, 13, 13);
         }
-        .contactus_Container span {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 2rem;
-            font-weight: 200;
-            line-height: 2rem;
-            color: rgb(24, 51, 221);
-            text-shadow: 0.3rem 0.3rem 0.8rem white;
+        .contactus_Container p {
+            font-size: 1rem;
+            font-weight: 100;
+            line-height: 1rem;
+            text-shadow: .2rem .2rem .1rem rgb(13, 13, 13);
         }
-
-
     }
 
 
 
-/*lo de abajo es basura */
-
-/*ACA EMPIEZA LO VIEJO
-/*
 
 
-
-
-
-
-
-.contactus_Container {
-    width: 67%;
-    height: 100;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    padding: 2rem;
-    border: 2px solid rgba(255,156, 0, 0.3); 
-    border-radius: 0 0 4rem 20rem;
-    box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
-    backdrop-filter: blur(.1rem) invert(70%);
-}
-
-.footer_Container {
-    width: 100%;
-    height: 8%;
-    border: 2px solid black;
-    border-radius: .8rem;
-}
-
- */

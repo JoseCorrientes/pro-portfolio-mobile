@@ -107,8 +107,9 @@ function LandingPage({toggleLanguage, lang}) {
 
                         <h1>{data.information[lang]}</h1>
                         <br />
-
-                        <span>Linkedin: </span>
+                        <span
+                            className={LandingPageCSS.container_Linkedin_title}
+                            >Linkedin: </span>
                         <a 
                             className={LandingPageCSS.contact_Link}
                             href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
@@ -117,30 +118,38 @@ function LandingPage({toggleLanguage, lang}) {
                         
 
 
-                        <span>Github: </span>
+                        <span
+                            className={LandingPageCSS.container_OtherLink_title}
+                            >Github: </span>
                         <a
-                            className={LandingPageCSS.contact_Link} 
+                            className={LandingPageCSS.contact_Link1} 
                             href="https://github.com/JoseCorrientes">
                             https://github.com/JoseCorrientes
                         </a>
 
-                        <span>@Mail: </span>
+                        <span
+                            className={LandingPageCSS.container_OtherLink_title}
+                            >@Mail: </span>
                         <a 
-                            className={LandingPageCSS.contact_Link} 
+                            className={LandingPageCSS.contact_Link1} 
                             href="mailto: josernestogarcia609@gmail.com">
                             josernestogarcia609@gmail.com
                         </a>
 
-                        <span>{data.phone[lang]}: </span>
+                        <span
+                            className={LandingPageCSS.container_OtherLink_title}
+                            >{data.phone[lang]}: </span>
                         <p
-                            className={LandingPageCSS.contact_Link}    
+                            className={LandingPageCSS.contact_Link1}    
                             >
                             (+54) 9 3794 599549
                         </p>
 
-                        <span>{data.country[lang]}: </span>
+                        <span
+                            className={LandingPageCSS.container_OtherLink_title}
+                            >{data.country[lang]}: </span>
                         <p
-                            className={LandingPageCSS.contact_Link}    
+                            className={LandingPageCSS.contact_Link1}    
                             >
                             Argentina (Corrientes)
                         </p>
