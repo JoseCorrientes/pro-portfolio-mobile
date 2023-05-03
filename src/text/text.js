@@ -45,7 +45,7 @@ const data = {
     projectClickHere: ["Click Here...", "Presione aquí..."],
     projectData: [
         {
-            pName: ["BUYME APP", "BUYMEAPP"],
+            pName: ["BUYME APP", "BUYME APP"],
             pDescription: ["Buyme app it's our Final Team Work to graduated from Henry's Bootcamp. It's an client-server app to manage an e-commerce. It has two front parts:  The client part and the administrator one. Depending on you loggin you access to one or the other. The App uses Mercado Pago as  pay gateway. It also uses Jason Web Token to improve the access security.", "Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry. Consiste en una app cliente-servidor para gestionar un e-commerce. Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado. utiliza a mercado pago como pasarela de pago. Tambien utiliza Jason Web Token para mejorar la seguridad del acceso."],
             pTech: ["HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.", "HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api."],
             pFront: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
@@ -54,14 +54,14 @@ const data = {
             pVideo: ["https://youtu.be/P2944P1AZcM", "https://youtu.be/os5HgswlHWM"]
         },
         {
-            pName: ["BUYME APP2", "BUYMEAPP2"],
-            pDescription: ["2Buyme app it's our Final Team Work to graduated from Henry's Bootcamp. It's an client-server app to manage an e-commerce. It has two front parts:  The client part and the administrator one. Depending on you loggin you access to one or the other. The App uses Mercado Pago as  pay gateway. It also uses Jason Web Token to improve the access security.", "2Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry. Consiste en una app cliente-servidor para gestionar un e-commerce. Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado. utiliza a mercado pago como pasarela de pago. Tambien utiliza Jason Web Token para mejorar la seguridad del acceso."],
-            pTech: ["2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.", "2HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api."],
-            pFront: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
-            pBack: "https://github.com/JoseCorrientes/Buyme-app-PF.git",
+            pName: ["MY PORTFOLIO", "MI PORTAFOLIOS"],
+            pDescription: ["This is an App that I will use as projects portfolio. Once it is deployed, all new project will save in this app. It's only frontend and I made it using javascript, react, react-player, CSS, It also takes you tube videos tu show them. ", "Esta es una aplicación que usaré como cartera de proyectos. Una vez que se implemente, todos los proyectos nuevos se guardarán en esta aplicación. Es solo frontend y lo hice usando javascript, react, react-player, CSS, también toma videos de you tube para mostrarlos."],
+            pTech: ["HTML, CSS, Javascript, React, React-player.", "HTML, CSS, Javascript, React, React-player."],
+            pFront: "https://github.com/JoseCorrientes/pro-portfolio-mobile.git",
+            pBack: "",
             
             pDeploy: "",
-            pVideo: ["https://youtu.be/P2944P1AZcM", "https://youtu.be/os5HgswlHWM"]
+            pVideo: ["https://youtu.be/Nr9TnGMKSeo"]
         },
     ]    
 

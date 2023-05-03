@@ -8,7 +8,7 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                     <div className={ProjectCardCSS.project_Card_left_container}>
                          <div className={ProjectCardCSS.title_Container}>
                             <p className={ProjectCardCSS.title_p_Label}>{projectName[lang]}:</p> 
-                            <span className={ProjectCardCSS.title_span_Text}>BUYME APP</span>
+                            <span className={ProjectCardCSS.title_span_Text}>{pData.pName[lang]}</span>
                         </div> 
                          <div className={ProjectCardCSS.description_Container}>
                             <p className={ProjectCardCSS.description_p_Label}>{projectDescription[lang]}:</p> 
