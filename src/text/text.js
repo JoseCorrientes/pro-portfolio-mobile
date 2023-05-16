@@ -110,7 +110,7 @@ const data = {
       pBack: "",
 
       pDeploy: "https://todo-mobile-eta.vercel.app/",
-      pVideo: [""],
+      pVideo: ["https://youtu.be/Mx2vXWgHhkk"],
     },
   ],
 };
