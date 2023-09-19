@@ -151,6 +151,10 @@ header .page_Title {
 .element_Card .scrum:hover .tip,
 .element_Card .trello:hover .tip,
 .element_Card .azure:hover .tip,
+.element_Card .mongo:hover .tip,
+.element_Card .mongoose:hover .tip,
+.element_Card .tailwindcss:hover .tip,
+
 .element_Card .wordpress:hover .tip {
     visibility: visible;
 } 
@@ -362,6 +366,41 @@ header .page_Title {
     background-size: cover;
     box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
 }
+.element_Card .tailwindcss {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../../images/logoTailwindcss200.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
+}
+.element_Card .mongo {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../../images/logoMongo200.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
+}
+.element_Card .mongoose {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../../images/logoMongoose200.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
+}
+
+
 .element_Card_Soft {
     width: 90%;
     height: auto;

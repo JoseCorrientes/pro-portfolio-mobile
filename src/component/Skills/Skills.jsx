@@ -35,7 +35,7 @@ function Skills({lang}) {
                         <span className={SkillsCSS.tip}>CSS 3.</span>
                     </span>
                     <span className={SkillsCSS.react}>
-                        <span className={SkillsCSS.tip}>React JS.</span>
+                        <span className={SkillsCSS.tip}>React Js.</span>
                     </span>
                     <span className={SkillsCSS.redux}>
                         <span className={SkillsCSS.tip}>Redux.</span>
@@ -49,11 +49,17 @@ function Skills({lang}) {
                     <span className={SkillsCSS.express}>
                         <span className={SkillsCSS.tip}>Express Js.</span>
                     </span>
+                    <span className={SkillsCSS.postgres}>
+                        <span className={SkillsCSS.tip}>Postgres SQL.</span>
+                    </span>
                     <span className={SkillsCSS.sequelize}>
                         <span className={SkillsCSS.tip}>Sequelize ORM.</span>
                     </span>
-                    <span className={SkillsCSS.postgres}>
-                        <span className={SkillsCSS.tip}>Postgres SQL.</span>
+                    <span className={SkillsCSS.mongo}>
+                        <span className={SkillsCSS.tip}>Mongo DB.</span>
+                    </span>
+                    <span className={SkillsCSS.mongoose}>
+                        <span className={SkillsCSS.tip}>Mongoose Js.</span>
                     </span>
                     <span className={SkillsCSS.git}>
                         <span className={SkillsCSS.tip}>Git.</span>
@@ -76,6 +82,10 @@ function Skills({lang}) {
                     <span className={SkillsCSS.wordpress}>
                         <span className={SkillsCSS.tip}>Wordpress CMS.</span>
                     </span>
+                    <span className={SkillsCSS.tailwindcss}>
+                        <span className={SkillsCSS.tip}>TailWindCSS.</span>
+                    </span>
+                    
               </div>
               <div className={SkillsCSS.element_Card_Title}>
                 <p>{data.softSkills[lang]}</p>

@@ -112,6 +112,21 @@ const data = {
       pDeploy: "https://todo-mobile-eta.vercel.app/",
       pVideo: ["https://youtu.be/Mx2vXWgHhkk"],
     },
+    {
+        pName: ["THE ULTIMATE MOVIE APP", "THE ULTIMATE MOVIE APP"],
+        pDescription: [
+          "This App let you to search a movie with the TMDB Movie search engine (The Movies DataBase). You can view further details of that movie and -if you see it interesting- keep its data in a Favorite file into a Mongo DB. While we are seeing further details of a movie we can also send a message to a friend suggesting that movie. This App has deployed in a Render free server so probably in the first movie searches it will give you a not found message. The backend takes a few seconds in put itself online",
+          "Esta aplicación te permite buscar un titulo de pelicula usando el motor the TMDB (The Movies DataBase). Se pueden ver los detalles de esa película y si gusta se puede agregar a una lista de favoritas que se guarda en una DB Mongo. Cuando estamos viendo los detalles de una pelicula se puede enviar por email los datos para sugerirla a un amigo. Esta aplicación se ha implementado en un servidor gratuito de Render, por lo que probablemente en las primeras búsquedas de películas le dará un mensaje de no encontrado. El backend tarda unos segundos en ponerse en línea.",
+        ],
+        pTech: [
+            "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, responsive design. ",
+          "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, responsive design."
+        ],
+        pFront: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Frontend",
+        pBack: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Backend",
+        pDeploy: "https://theultimatefilmapp.vercel.app/",
+        pVideo: ["https://youtu.be/oBnOTrgp_2c"]
+      },
   ],
 };
 
