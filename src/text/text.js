@@ -66,6 +66,24 @@ const data = {
   projectClickHere: ["Click Here...", "Presione aquí..."],
   projectData: [
     {
+        pName: ["TIC-TAC-TOE", "TIC-TAC-TOE"],
+        pDescription: [
+          `This is SPA that allow you to defeat the CPU playing tic-tac-toe. First af all you must decide if you move first, and the number of rounds to play. Then You and the CPU plays alternatively.
+          At the end the app shows who won.`,
+          `Este es un SPA que te permite derrotar a la CPU jugando al tres en raya. En primer lugar debes decidir si te mueves primero y el número de rondas a jugar. Entonces tú y la CPU juegan alternativamente.
+          Al final la aplicación muestra quién ganó.
+          `,
+        ],
+        pTech: [
+            "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, responsive design. ",
+          "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, NodeJs, diseño responsivo."
+        ],
+        pFront: "https://github.com/JoseCorrientes/tictactoe",
+        pBack: "",
+        pDeploy: "https://tictactoe-sepia-tau.vercel.app/",
+        pVideo: ["https://youtu.be/ecTSwWSCGik"]
+      },
+    {
         pName: ["TAKE-A-TURN APP", "TAKE-A-TURN APP"],
         pDescription: [
           "This SPA App allows Odontolgy Patients to pick up a turn with theirs odontologist on a on-line way. The turns can be picked-up or canceled. The Doctors can create or cancel turns so too disable a turn or a whole day.This SPA App allows Odontologist's Patients to pick  a turn with their dentist on an on-line way. The turns can be picked or canceled. The Doctors can create or cancel turns so too disable to turn or a whole day. This app is the best way to a odontologist to manage his schedule without other assistence.",
@@ -73,7 +91,7 @@ const data = {
         ],
         pTech: [
             "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, responsive design. ",
-          "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, responsive design."
+          "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, diseño responsivo."
         ],
         pFront: "",
         pBack: "",
@@ -88,7 +106,7 @@ const data = {
         ],
         pTech: [
             "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, responsive design. ",
-          "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, responsive design."
+          "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, diseño responsivo."
         ],
         pFront: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Frontend",
         pBack: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Backend",
