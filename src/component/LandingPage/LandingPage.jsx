@@ -1,7 +1,9 @@
 import LandingPageCSS from "./LandingPage.module.css";
 import Photo from "../../images/FotoJosePerfil.png";
 import { Link } from "react-router-dom";
-import CV from "../../files/Resume.pdf";
+// import CV from "../../files/Resume.pdf";
+import CV from "../../files/CV Jose Garcia.docx";
+import Resume from "../../files/RESUME Jose Garcia.docx";
 import {data } from "../../text/text";
 
 function LandingPage({toggleLanguage, lang}) {
@@ -52,7 +54,8 @@ function LandingPage({toggleLanguage, lang}) {
                                 <button>{data.buttonProyect[lang]}</button>
                                 </Link>
                             </div>
-                            <div className={LandingPageCSS.button_Cv}>
+
+                            {/* <div className={LandingPageCSS.button_Cv}>
                                 <a
                                 href={CV}
                                 download="JoseGarciaResume.pdf"
@@ -61,7 +64,34 @@ function LandingPage({toggleLanguage, lang}) {
                                 >
                                 {data.buttonCV[lang]}
                                 </a>
+                                </div> */}
+
+                            {lang===1 &&
+                            <div className={LandingPageCSS.button_Cv}>
+                                <a
+                                href={CV}
+                                download="JoseGarciaCV.docx"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                {data.buttonCV[lang]}
+                                </a>
                                 </div>
+                            }  
+                            
+                            {lang===0 &&
+                            <div className={LandingPageCSS.button_Cv}>
+                                <a
+                                href={Resume}
+                                download="JoseGarciaResume.docx"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                {data.buttonCV[lang]}
+                                </a>
+                                </div>
+                            }                                
+
                             <div className={LandingPageCSS.button_Skills}>
                                 <Link to="/Skills">
                                 <button>{data.buttonSkills[lang]}</button>
