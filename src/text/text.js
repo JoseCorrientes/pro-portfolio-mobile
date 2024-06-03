@@ -93,9 +93,9 @@ const data = {
             "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, responsive design. ",
           "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, diseño responsivo."
         ],
-        pFront: "",
-        pBack: "",
-        pDeploy: "https://takeaturn-frontend.vercel.app/",
+        pFront: "https://github.com/JoseCorrientes/TakeATurn-Frontend",
+        pBack: "https://github.com/JoseCorrientes/TakeATurn-Backend",
+        pDeploy: "",
         pVideo: ["https://youtu.be/z9xeJO0EQRQ", "https://youtu.be/7PjRhMso8iE", "https://youtu.be/5n9C7rFT2N0"]
       },
     {
