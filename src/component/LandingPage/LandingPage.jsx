@@ -8,6 +8,8 @@ import {data } from "../../text/text";
 
 function LandingPage({toggleLanguage, lang}) {
 
+  
+    
   return (
     <div className={LandingPageCSS.main_Container}>
         <div  
@@ -30,10 +32,16 @@ function LandingPage({toggleLanguage, lang}) {
                         ></label>   
                 </div>
         </div>
+
+
+
+
+
         <div className={LandingPageCSS.upper_Container}>
+
             <div className={LandingPageCSS.msj_Container}>
                 <p>
-                    {data["description"]["line1"][lang]} <span> José Garcia. </span>{data["description"]["line2"][lang]}  
+                    {data["description"]["line1"][lang]} <span> José Ernesto García. </span>{data["description"]["line2"][lang]}  
                 </p>
                 <br></br>
                 <p>{data["description"]["line3"][lang]}</p>
@@ -41,6 +49,7 @@ function LandingPage({toggleLanguage, lang}) {
                 <p>{data["description"]["line5"][lang]}</p>
                 <p>{data["description"]["line6"][lang]}</p>
                 <p>{data["description"]["line7"][lang]}</p>
+                <p>{data["description"]["line7plus"][lang]}</p>
                 <p>{data["description"]["line8"][lang]}</p>
             </div> 
             <div className={LandingPageCSS.photo_Container}>
@@ -98,12 +107,14 @@ function LandingPage({toggleLanguage, lang}) {
                                 </Link>
                             </div> 
                     </div>
+
+
                 <div className={LandingPageCSS.contactus_Container}>
                         <h1>{data.information[lang]}</h1>
                         <br />
                         <span
                             className={LandingPageCSS.container_Linkedin_title}
-                            >Linkedin: </span>
+                            >LINKEDIN: </span>
                         <a 
                             className={LandingPageCSS.contact_Link}
                             href="https://www.linkedin.com/in/joseernestogarciadeveloper/">
@@ -111,7 +122,7 @@ function LandingPage({toggleLanguage, lang}) {
                         </a>
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
-                            >Github: </span>
+                            >GITHUB: </span>
                         <a
                             className={LandingPageCSS.contact_Link1} 
                             href="https://github.com/JoseCorrientes">
@@ -119,7 +130,7 @@ function LandingPage({toggleLanguage, lang}) {
                         </a>
                         <span
                             className={LandingPageCSS.container_OtherLink_title}
-                            >@Mail: </span>
+                            >@MAIL: </span>
                         <a 
                             className={LandingPageCSS.contact_Link1} 
                             href="mailto: josernestogarcia609@gmail.com">

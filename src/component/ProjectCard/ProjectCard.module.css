@@ -13,11 +13,10 @@
     height: auto;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    background-color: rgba(119, 117, 117, 0.4);
-    border: 2px solid rgba(255,156, 0, 0.3); 
     border-radius: 4rem 4rem 0 0;
-    box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
-    backdrop-filter: blur(.5rem);
+    background-color: var(--ColorTotalDark);
+    border: 4px solid var(--ColorDarkBlue);
+    box-shadow: 1.5rem 1.5rem .9rem var(--ColorBlueShadow);
 }
 .title_Container {
     display: flex;
@@ -34,8 +33,9 @@
     line-height: 1.5rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    color: white;
-    text-shadow: .3rem .3rem .3rem black;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+   
 }
 .project_Card_left_container .title_span_Text {
     flex-basis: 60%;
@@ -46,9 +46,9 @@
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: 300;
-    color: white;
-    background-color: rgba(5, 18, 28, 0.6);
-    text-shadow: .2rem .2rem rgb(0, 0, 0);
+    color: var(--ColorTotalLight);
+    background-color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem rgb(0, 0, 0); 
 }
 .description_Container {
     margin: 0 auto;
@@ -65,19 +65,18 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: white;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
     padding-bottom: 1rem;
-    text-shadow: .3rem .3rem .3rem black;
 }
 .project_Card_left_container .description_span_Text {
     flex-basis: 100%;
     font-size: 1.5rem;
     font-weight: 200;
     line-height: 2rem;
-    color: white;
+    color: var(--ColorLightBlue);
     padding: .5rem;
     padding-bottom: 2rem;
-    background-color: rgba(0,0,0, .4);
 }
 .tech_Container {
     margin: 0 auto;
@@ -94,19 +93,18 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: white;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
     padding-bottom: 1rem;
-    text-shadow: .3rem .3rem .3rem black;
 }
 .project_Card_left_container .tech_span_Text {
     flex-basis: 100%;
     font-size: 1.5rem;
-    font-size: 200;
+    font-weight: 200;
     line-height: 2rem;
-    color: white;
+    color: var(--ColorLightBlue);
     padding: .5rem;
     padding-bottom: 2rem;
-    background-color: rgba(0,0,0, .4);
 }
 .backrepo_Container {
     margin: 0 auto;
@@ -125,9 +123,9 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: white;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
     padding-bottom: 1rem;
-    text-shadow: .3rem .3rem .3rem black;
 }
 .backrepo_Container .link_External {
     margin: 0 auto;
@@ -137,14 +135,13 @@
     font-size: 1.7rem;
     font-weight: 200;
     line-height: 1.7rem;
-    color: white;
+    color: var(--ColorLightBlue);
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding: .5rem;
     padding-bottom: 2rem;
     cursor: pointer;
     text-shadow: .1rem .1rem .1rem black;
-    background-color: rgba(0,0,0, .4); 
 }
 .frontrepo_Container {
     margin: 0 auto;
@@ -164,8 +161,8 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: white;
-    text-shadow: .3rem .3rem .3rem black;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
 }
 .frontrepo_Container .link_External {
     margin: 0 auto;
@@ -175,14 +172,13 @@
     font-size: 1.7rem;
     font-weight: 200;
     line-height: 1.7rem;
-    color: white;
+    color: var(--ColorLightBlue);
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     padding: .5rem;
     padding-bottom: 2rem;
     cursor: pointer;
     text-shadow: .1rem .1rem .1rem black;
-    background-color: rgba(0,0,0, .4);
 }    
 .frontdeploy_Container {
     margin: 0 auto;
@@ -200,8 +196,8 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5rem;
-    color: white;
-    text-shadow: .3rem .3rem .3rem black;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
 }
 .frontdeploy_Container .link_External {
     margin: 0 auto;
@@ -211,17 +207,17 @@
     font-size: 1.7rem;
     font-weight: 200;
     line-height: 1.7rem;
-    color: white;
+    color: var(--ColorLightBlue);
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     padding: .5rem;
     padding-bottom: 2rem;
     cursor: pointer;
     text-shadow: .1rem .1rem .1rem black;
-    background-color: rgba(0,0,0, .4);    
 }
 .project_Card_right_container {
     padding-top: 3rem;    
+    padding-bottom: 3rem;
     flex-basis: 100%;
     display: flex;
     flex-direction: row;
@@ -229,7 +225,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 0 0 4rem 4rem;
-    background-color: rgba(119, 117, 117, 0.2);
+    background-color: var(--ColorMediumBlueTransparent);
 }
 .video_Container {
     margin: 0 auto;
@@ -255,11 +251,10 @@
         height: auto;
         padding-bottom: 1rem;
         padding-top: 1.5rem;
-        background-color: rgba(119, 117, 117, 0.4);
-        border: 2px solid rgba(255,156, 0, 0.3); 
+        background-color: var(--ColorTotalDark);
+        border: 4px solid var(--ColorDarkBlue);
         border-radius: 4rem 0 0 4rem;
-        box-shadow: .8rem .8rem .8rem rgb(0, 0, 0, .8);
-        backdrop-filter: blur(.5rem);
+        box-shadow: 1.5rem 1.5rem .9rem var(--ColorBlueShadow);
     }   
     .project_Card_right_container {
         padding-top: 3rem;    
@@ -270,7 +265,7 @@
         justify-content: space-around;
         align-items: center;
         border-radius: 0 4rem 4rem 0;
-        background-color: rgba(119, 117, 117, 0.2);
+        background-color: var(--ColorMediumBlueTransparent);
     }
     .video_Container {
         margin: 0 auto;

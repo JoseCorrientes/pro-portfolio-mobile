@@ -9,6 +9,16 @@
     --PageTitleColor: rgb(161, 158, 158);
     --GithubLinkColor: rgb(210, 149, 17);
     --GithubLinkMobileColor: rgb(237, 201, 124);
+
+    /* Esquema de Colores */
+    --ColorTotalDark: #000000;
+    --ColorDarkBlue: #090c9b;
+    --ColorMediumBlue: #3066be;
+    --ColorMediumBlueTransparent: rgba(48,102, 190, .1);
+    --ColorBlueShadow: rgba(9, 12, 155, .3);
+    --ColorLightBlue: #b4c5e4;
+    --ColorLight: #fbfff1;
+    --ColorTotalLight: #ffffff;
 }
 *{
     margin: 0;
@@ -25,10 +35,12 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/FCGrande.jpg');
+    background-color: var(--ColorTotalDark);
+    /* background-color: var(--ColorTotalDark); */
+    /* background-image: url('./images/FCGrande.jpg');
     background-position:left;
     background-repeat:repeat;
-    background-size:auto;
+    background-size:auto; */
 }
 .footer_Container {
     display: none;
@@ -44,11 +56,12 @@ body {
         position: relative;
         width: 100%;
         height: 100%;
-        background-image: url('./images/FCGrande.jpg');
+        background-color: var(--ColorTotalDark);
+        /* background-image: url('./images/FCGrande.jpg');
         background-position:left;
         background-repeat: norepeat;
-        background-size: cover;
-        border: 2px solid white;
+        background-size: cover; */
+        /* border: 2px solid white; */
     }
     .footer_Container {
         position: absolute;
@@ -58,8 +71,8 @@ body {
         left: 0px;
         display: flex;
         position: absolute;
-        border: 1px solid black;
-        background-color: black;
+        border: 1px solid var(--ColorTotalDark);
+        background-color: var(--ColorTotalDark);
     }
     ol {
         display: flex;
@@ -70,17 +83,19 @@ body {
         align-items: center;
         list-style:none;
         text-decoration: none;
-        color: var(--justWhite);
+        
     }
     Link {
         text-decoration-line: none ;
         text-decoration: none;
     }
     button {
-        background-color: rgb(17, 12, 12);
+        /* background-color: var(--ColorMediumBlue); */
+        background-color: var(--ColorMediumBlueTransparent);
+        /* background-color: rgb(17, 12, 12); */
         width: 150px;
         height: 2.5rem;
-        color: white;
+        color: var(--ColorLightBlue);
         text-align: center;
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-size: 1.5rem;
@@ -88,14 +103,16 @@ body {
         line-height: 2.5rem;
         padding-top: .5px;
         padding-bottom: .5px;
-        text-shadow: .2rem .2rem rgb(0, 0, 0);
+        /* text-shadow: .2rem .2rem var(--ColorTotalDark); */
         border-radius: .4rem;
         border: none;
     }
     button:hover {
-        background-color: white;
+        background-color: var(--ColorDarkBlue);
+        color: var(--ColorLightBlue);
         text-shadow: none;
-        color: black;
         cursor: pointer;
+        transform: scale(.8);
+        transition: 400ms;
     }
 }

@@ -3,28 +3,36 @@ const data = {
   description: {
     line1: ["Hi, I'm", "Hola, soy "],
     line2: [
-      "Call me José, please and... Welcome to my Portfolio.",
-      "Por favor llámame José y... Bienvenido a mi Portafolio.",
+      "Call me José, please and... welcome to my Portfolio.",
+      "Por favor llámame José y... bienvenido a mi Portafolio.",
     ],
     line3: [
-      "I'm a Full Stack Developer graduated from Henry's Bootcamp.",
-      "Soy un Desarrollador Full Stack graduado del Bootcamp de Henry.",
+        "I'm an Information Systems Engineer from de UTN - Universidad Tecnológica Nacional (Argentina).",
+        "Soy un Ingeniero en Sistemas de Información de la UTN - Universidad Tecnologica Nacional (Argentina).",
     ],
     line4: [
-      "And also I'm an Information Systems Engineer from de UTN - Universidad Tecnológica Nacional (Argentina).",
-      "Y también soy un Ingeniero en Sistemas de Información de la UTN - Universidad Tecnologica Nacional (Argentina).",
+      "And I'm also a Full Stack Developer graduated from Henry's Bootcamp.",
+      "Y soy también un Desarrollador Full Stack graduado del Bootcamp de Henry.",
     ],
     line5: [
       "I worked in remote way for a startup in Colombia until february 2023.",
       "Trabajé en forma remota para una Startup en Colombia hasta febrero de 2023.",
     ],
     line6: [
-      "Right now I'm programming in Javascript and nodeJs. But i'm very curious and continuously search and learn other technologies.",
-      "Ahora estoy programando en Javascript y nodeJs. Pero soy muy curioso y continuamente busco y aprendo otras tecnologias.",
+        "Right now i'm using Javascript, React, Node, Express, HTML, CSS, Tailwind, MongoDB, Postgresql, Mongoose, AGGrid.",
+      "Las tecnologías que uso incluyen Javascript, React, Node, Express, HTML, CSS, Tailwind, MongoDB, Postgresql, Mongoose, AGGrid.",
+      
     ],
     line7: [
-      "My goal is to grow as a Tech Pro, learning a lot in the process and of course contributing to your company's grow as well.",
-      "Mi objetivo es crecer como profesional en la Tecnología, aprendiendo un monton en el proceso y por supuesto también contribuyendo al crecimiento de su compañia.",
+      
+    //   "My goal is to grow as a IT Pro, learning a lot in the process and of course contributing to your company's grow as well.",
+    //   "Mi objetivo es crecer como profesional IT, aprendiendo un monton en el proceso y por supuesto también contribuyendo al crecimiento de su compañia.",
+    "I'm very curious and continuously search and learn other technologies.",
+    "Soy muy curioso y continuamente busco y aprendo otras tecnologías.",
+    ],
+    line7plus: [
+      "My goal is to grow as a IT Pro, learning a lot in the process and of course contributing to your company's grow as well.",
+      "Mi objetivo es crecer como profesional IT, aprendiendo un monton en el proceso y por supuesto también contribuyendo al crecimiento de su compañia.",
     ],
     line8: [
       "If you want to know more about me, please contact me by the means listed below.",
@@ -35,11 +43,11 @@ const data = {
   buttonCV: ["RESUME", "CV"],
   buttonSkills: ["SKILLS", "HABILIDADES"],
   information: ["INFORMATION && CONTACT", "INFORMACION && CONTACTO"],
-  phone: ["Phone", "Teléfono"],
-  country: ["Country", "País"],
+  phone: ["PHONE", "TELÉFONO"],
+  country: ["COUNTRY", "PAÍS"],
 
   skillTitle: ["SKILLS", "HABILIDADES"],
-  backHome: ["Back Home", "Menu"],
+  backHome: ["BACK HOME", "VOLVER AL INICIO"],
   technologies: ["TECHNOLOGIES", "TECNOLOGIAS"],
   softSkills: ["SOFT SKILLS", "HABILIDADES BLANDAS"],
   soft1: ["Self-learning", "Autodidacta"],
@@ -51,8 +59,8 @@ const data = {
   languageTitle: ["LANGUAGES", "IDIOMAS"],
   languageSpanish: ["SPANISH", "ESPAÑOL"],
   languageEnglish: ["ENGLISH", "INGLES"],
-  languageW: ["Written", "Escrito"],
-  languageS: ["Spoken", "Oral"],
+  languageW: ["WRITTEN", "ESCRITO"],
+  languageS: ["SPOKEN", "ORAL"],
   languageN: ["Native", "Nativo"],
   languageLI: ["Lower Intermediate Level", "Nivel Intermedio Bajo"],
   languageLL: ["Upper Basic Level", "Nivel Basico Alto"],
