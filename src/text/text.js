@@ -74,6 +74,25 @@ const data = {
   projectClickHere: ["Click Here...", "Presione aquí..."],
   projectData: [
     {
+        pName: ["MEMO PAIRS", "MEMO PAIRS"],
+        pDescription: [
+          `Memo Pairs is a game where you must guess where in the scoreboard are the pairs of equal faces. When you are success both of the cards are quited of the board and you earn a point. The goal is to make the biggest score possible.`,
+          `Memo Pairs es un juego donde debe adivinar donde estan un par de caras iguales dentro del tablero. Cuando lo logra, ambas caras son eliminadas del tablero y gana un punto. El objetivo es hacer la mayor puntuacion posible.`,
+        ],
+        pTech: [
+            "HTML, TailwindCSS, Javascript, Vite, React, Web Design. ",
+          "HTML, TailwindCSS, Javascript, Vite, React, Diseño para Web."
+        ],
+        
+
+        pFront: "https://github.com/JoseCorrientes/MemoPairs",
+        pBack: "",
+        pDeploy: "https://memopairs.vercel.app",
+        pVideo: ["https://www.youtube.com/watch?v=o1IIwVWu45M"]
+
+
+      },
+    {
         pName: ["TIC-TAC-TOE", "TIC-TAC-TOE"],
         pDescription: [
           `This is SPA that allow you to defeat the CPU playing tic-tac-toe. First af all you must decide if you move first, and the number of rounds to play. Then You and the CPU plays alternatively.
