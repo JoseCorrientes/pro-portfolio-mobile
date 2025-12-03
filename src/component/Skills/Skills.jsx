@@ -22,6 +22,9 @@ function Skills({lang}) {
                     <p>{data.technologies[lang]}</p>
                 </div>
                 <div className={SkillsCSS.element_Card}>
+                    <span className={SkillsCSS.n8n}>
+                        <span className={SkillsCSS.tip}>n8n.</span>
+                    </span>
                     <span className={SkillsCSS.js}>
                         <span className={SkillsCSS.tip}>Javascript.</span>
                     </span>

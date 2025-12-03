@@ -74,6 +74,29 @@ const data = {
   projectClickHere: ["Click Here...", "Presione aquí..."],
   projectData: [
     {
+        pName: ["REQUEST FOR LEAVE (Vacation or Sick Leave)- N8N FLOW", "PEDIDO POR LICENCIA (Vacaciones o Enfermedad) - FLUJO N8N"],
+        pDescription: [
+          `This n8n workflow automates employee leave requests, whether for vacation or sick leave, from an n8n form input. First, it checks a database to see if the employee has available days and meets certain conditions, and then approves or rejects the request.
+          If approved, it saves the request to Google Calendar, and in each case, an email notification is sent.
+          For a detailed look at the workflow, access the WEB ACCESS URL and read the README.MD file.`,
+          `Este flujo n8n automatiza desde una entrada n8n form los pedidos de un empleado para tomar licencia, ya sea por Vacaciones o o Enfermedad. Primero analiza desde una base de datos si tiene dias disponibles y si cumple ciertas condiciones y luego le da o le rechaza el pedido.
+          Si lo aprueba lo graba en Google Calendar y en cada caso envio un email con la notificacion pertinente.
+          Para ver bien el detalle del flujo acceder a la URL ACCESO WEB  y alli leer el README.MD.`,
+        ],
+        pTech: [
+            "n8n",
+          "n8n"
+        ],
+        
+
+        pFront: "",
+        pBack: "",
+        pDeploy: "https://github.com/JoseCorrientes/n8n-PedidoDeLicencia",
+        pVideo: []
+
+
+      },
+    {
         pName: ["MEMO PAIRS", "MEMO PAIRS"],
         pDescription: [
           `Memo Pairs is a game where you must guess where in the scoreboard are the pairs of equal faces. When you are success both of the cards are quited of the board and you earn a point. The goal is to make the biggest score possible.`,

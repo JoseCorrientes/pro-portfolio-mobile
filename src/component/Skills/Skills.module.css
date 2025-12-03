@@ -167,6 +167,7 @@ header .page_Title {
     box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
 } 
 .element_Card .js:hover .tip,
+.element_Card .n8n:hover .tip,
 .element_Card .ts:hover .tip,
 .element_Card .html:hover .tip,
 .element_Card .css:hover .tip,
@@ -371,6 +372,17 @@ header .page_Title {
     width: 70px;
     height: 70px;
     background-image: url("../../images/logoTrello200.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1rem 1rem 1.5rem rgba(0,0,0,1);
+}
+.element_Card .n8n {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../../images/logoN8N200.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
