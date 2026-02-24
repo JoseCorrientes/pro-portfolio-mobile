@@ -1,32 +1,32 @@
 :root {
-    --darkGrey: #383636;
-    --pureBlack: #000000;
-    --justWhite: #ffffff;
-    --border: orange;
+  --darkGrey: #383636;
+  --pureBlack: #000000;
+  --justWhite: #ffffff;
+  --border: orange;
 
-    --PageTitleColor: rgb(161, 158, 158);
-    --GithubLinkColor: rgb(210, 149, 17);
-    --GithubLinkMobileColor: rgb(237, 201, 124);
+  --PageTitleColor: rgb(161, 158, 158);
+  --GithubLinkColor: rgb(210, 149, 17);
+  --GithubLinkMobileColor: rgb(237, 201, 124);
 
-    /* Esquema de Colores */
-    --ColorTotalDark: #000000;
-    --ColorDarkBlue: #090c9b;
-    --ColorMediumBlue: #3066be;
-    --ColorLightBlue: #b4c5e4;
-    --ColorLight: #fbfff1;
-    --ColorTotalLight: #ffffff;
+  /* Esquema de Colores */
+  --ColorTotalDark: #000000;
+  --ColorDarkBlue: #090c9b;
+  --ColorMediumBlue: #3066be;
+  --ColorLightBlue: #b4c5e4;
+  --ColorLight: #fbfff1;
+  --ColorTotalLight: #ffffff;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

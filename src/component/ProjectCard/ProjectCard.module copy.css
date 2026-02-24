@@ -1,0 +1,278 @@
+.project_Card {
+    margin: 0 auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+.project_Card_left_container {
+    flex-basis: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    border-radius: 4rem 4rem 0 0;
+    background-color: var(--ColorTotalDark);
+    border: 4px solid var(--ColorDarkBlue);
+    box-shadow: 1.5rem 1.5rem .9rem var(--ColorBlueShadow);
+}
+.title_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.project_Card_left_container .title_p_Label {
+    flex-basis: 40%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+   
+}
+.project_Card_left_container .title_span_Text {
+    flex-basis: 60%;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--ColorTotalLight);
+    background-color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem rgb(0, 0, 0); 
+}
+.description_Container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .description_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+    padding-bottom: 1rem;
+}
+.project_Card_left_container .description_span_Text {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: var(--ColorLightBlue);
+    padding: .5rem;
+    padding-bottom: 2rem;
+}
+.tech_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    padding-top: 1rem;
+}
+.project_Card_left_container .tech_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+    padding-bottom: 1rem;
+}
+.project_Card_left_container .tech_span_Text {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: var(--ColorLightBlue);
+    padding: .5rem;
+    padding-bottom: 2rem;
+}
+.backrepo_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+}
+.project_Card_left_container .backrepo_p_Label {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+    padding-bottom: 1rem;
+}
+.backrepo_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: var(--ColorLightBlue);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+}
+.frontrepo_Container {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .frontrepo_p_Label {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+}
+.frontrepo_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: var(--ColorLightBlue);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+}    
+.frontdeploy_Container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+}
+.project_Card_left_container .frontdeploy_p_Label {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--ColorMediumBlue);
+    text-shadow: .2rem .2rem var(--ColorDarkBlue);
+}
+.frontdeploy_Container .link_External {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: var(--ColorLightBlue);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-shadow: .1rem .1rem .1rem black;
+}
+.project_Card_right_container {
+    padding-top: 3rem;    
+    padding-bottom: 3rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 4rem 4rem;
+    background-color: var(--ColorMediumBlueTransparent);
+}
+.video_Container {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 300px;
+    height: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+} 
+@media screen and (min-width: 990px) {
+    .project_Card {
+        margin: 0 auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 3rem;
+        margin-bottom: 5rem;
+    }
+    .project_Card_left_container {
+        flex-basis: 60%;
+        height: auto;
+        padding-bottom: 1rem;
+        padding-top: 1.5rem;
+        background-color: var(--ColorTotalDark);
+        border: 4px solid var(--ColorDarkBlue);
+        border-radius: 4rem 0 0 4rem;
+        box-shadow: 1.5rem 1.5rem .9rem var(--ColorBlueShadow);
+    }   
+    .project_Card_right_container {
+        padding-top: 3rem;    
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0 4rem 4rem 0;
+        background-color: var(--ColorMediumBlueTransparent);
+    }
+    .video_Container {
+        margin: 0 auto;
+        width: 98%;
+        max-width: 350px;
+        height: 20rem;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+}

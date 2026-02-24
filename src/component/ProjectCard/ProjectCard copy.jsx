@@ -55,7 +55,7 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
 
 
 
-
+                    
                     <div className={ProjectCardCSS.project_Card_right_container}>
                         {pData.pVideo && pData.pVideo.length>0 && pData.pVideo.map(x=>
                         <div
@@ -70,19 +70,21 @@ function ProjectCard({projectName, projectDescription, projectTechnologies, proj
                         </div>) 
                         }
                         
-
-                        {pData.pPhoto && pData.pPhoto.length>0 && pData.pPhoto.map(x=>
+                        {pData.pFotos && pData.pFotos.length>0 && pData.pVideo.map(x=>
                         <div
                             className={ProjectCardCSS.video_Container}>
-                            <img
-                                src={x}
-                                alt={x}
-                                width="120%"
-                                height="120%"
+                            <ReactPlayer
+                                url={x}
+                                playing={false}
+                                controls={true}
+                                width="100%"
+                                height="100%"
                             />
                         </div>) 
                         }
-                        
+
+
+
 
                     </div>
                 </div> 
