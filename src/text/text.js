@@ -136,8 +136,8 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
     {
       pName: ["TAKE-A-TURN APP", "TAKE-A-TURN APP"],
       pDescription: [
-        "This SPA App allows Odontolgy Patients to pick up a turn with theirs odontologist on a on-line way. The turns can be picked-up or canceled. The Doctors can create or cancel turns so too disable a turn or a whole day.This SPA App allows Odontologist's Patients to pick  a turn with their dentist on an on-line way. The turns can be picked or canceled. The Doctors can create or cancel turns so too disable to turn or a whole day. This app is the best way to a odontologist to manage his schedule without other assistence.",
-        "Esta aplicación SPA permite a los pacientes del odontólogo elegir un turno con su dentista de forma online. Los turnos se pueden elegir o cancelar. Los médicos pueden crear o cancelar turnos, por lo que también pueden desactivar el turno o un día completo. Esta aplicación es la mejor manera para que un odontólogo administre su agenda sin otra ayuda.",
+        "Smart scheduling SaaS for healthcare professionals. Developed a custom conflict-resolution algorithm to prevent overlapping appointments. Built with Node.js, React, and PostgreSQL, focusing on high data integrity and performance.",
+        "SaaS de gestión de turnos para profesionales de la salud. Desarrollé un algoritmo de resolución de conflictos propio para evitar solapamientos en la agenda. Construido con el stack PERN (PostgreSQL, Express, React, Node.js), priorizando la integridad de los datos y el rendimiento del sistema.",
       ],
       pTech: [
         "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, responsive design. ",
@@ -172,8 +172,8 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
     {
       pName: ["MY PORTFOLIO", "MI PORTAFOLIOS"],
       pDescription: [
-        "This is an App that I will use as projects portfolio. Once it is deployed, all new project will save in this app. It's only frontend and I made it using javascript, react, react-player, CSS, It also takes you tube videos tu show them. ",
-        "Esta es una aplicación que usaré como cartera de proyectos. Una vez que se implemente, todos los proyectos nuevos se guardarán en esta aplicación. Es solo frontend y lo hice usando javascript, react, react-player, CSS, también toma videos de you tube para mostrarlos.",
+        "Technical personal branding development designed under Software Engineering principles. Focused on User Experience (UX) optimization and a clean architecture that facilitates scalability and maintainability.",
+        "Desarrollo de marca personal técnica diseñado bajo principios de Ingeniería de Software. Enfocado en la optimización de la experiencia de usuario (UX) y una arquitectura limpia que facilita la escalabilidad y el mantenimiento.",
       ],
       pTech: [
         "HTML, CSS, Javascript, React, React-player.",
