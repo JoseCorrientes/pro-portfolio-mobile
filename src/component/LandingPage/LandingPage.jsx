@@ -29,7 +29,7 @@ function LandingPage({ toggleLanguage, lang }) {
 
       <div className={LandingPageCSS.upper_Container}>
         <div className={LandingPageCSS.msj_Container}>
-          <span>José Ernesto García 1</span>
+          <span>José Ernesto García</span>
           <p>{data["description"]["line1"][lang]}</p>
           <p>{data["description"]["line2"][lang]}</p>
           <p>{data["description"]["line3"][lang]}</p>
