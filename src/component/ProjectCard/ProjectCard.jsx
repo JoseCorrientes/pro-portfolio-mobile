@@ -120,6 +120,8 @@ function ProjectCard({
                 <a
                   className={ProjectCardCSS.link_External}
                   href={pData.pDeploy}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {projectClickHere[lang]}
                 </a>
