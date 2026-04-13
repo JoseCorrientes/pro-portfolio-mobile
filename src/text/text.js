@@ -56,52 +56,105 @@ const data = {
   projectClickHere: ["Click Here...", "Presione aquí..."],
   projectData: [
     {
+      pID: "10",
+      pName: ["RICK AND MORTY QUERY APP", "RICK AND MORTY QUERY APP"],
+      pDescription: [
+        [
+          `This SPA app consumes data from https://rickandmortyapi.com/ and presents it in a grid format. It separates the data into Humans, Aliens, and Everyone.`,
+          `You can access and view a specific character in detail.`,
+          `TanStack Query is used to facilitate access to and caching of information, making the user experience smoother.`,
+          `The application is responsive and its size adapts for use on mobile devices or large screens.`,
+        ],
+        [
+          `Esta app SPA consume datos de la https://rickandmortyapi.com/ y los presenta en forma de grilla. Los separa por Humanos, Aliens y Todos.`,
+          `Se puede acceder a un personaje en particular y se ve en detalle.`,
+          `Se utiliza TanStack Query para facilitar el acceso a la info y cachear la misma, haciendo la experiencia del usuario más fluida.`,
+          `La aplicacion es responsiva y su tamaño se adapta para usar en mobiles o en pantallas grandes.`,
+        ],
+      ],
+      pTech: [
+        "Reactjs, React Router, TailwindCSS, TanStack/React Query, Responsiveness, Axios, API consumption",
+        "Reactjs, React Router, TailwindCSS, TanStack/React Query, Responsividad, Axios, Consumo de API",
+      ],
+
+      pFront: "https://github.com/JoseCorrientes/RickAndMortyQuery.git",
+      pBack: "",
+      pDeploy: "https://rickandmortyquery.vercel.app/",
+      pVideo: [`https://youtu.be/6kG8j6enc8U`],
+      pPhoto: [],
+    },
+    {
+      pID: "09",
       pName: [
         "REQUEST FOR LEAVE (Vacation or Sick Leave)- N8N FLOW USING WEBHOOKS LIKE AN REST API",
         "PEDIDO POR LICENCIA (Vacaciones o Enfermedad) - FLUJO N8N USANDO WEBHOOKS COMO UNA API REST",
       ],
       pDescription: [
-        `This n8n workflow automates employee leave requests, whether for vacation or sick leave, from a webhook input accessible via a POST request. First, it checks a database for available days and whether the employee meets certain conditions, and then approves or rejects the request. HR also performs this process by accessing a webhook with a POST request.
-If approved, the request is saved in Google Calendar, and an email notification is sent in each case.
-For a detailed look at the workflow, access the WEB ACCESS URL and read the README.MD file.`,
-        `Este flujo n8n automatiza desde una entrada de webhook -accesible a traves de un POST- los pedidos de un empleado para tomar licencia, ya sea por Vacaciones o o Enfermedad. Primero analiza desde una base de datos si tiene dias disponibles y si cumple ciertas condiciones y luego le da o le rechaza el pedido - RRHH tambien hace esto accediendo a con un POST a un webhook.
-          Si lo aprueba lo graba en Google Calendar y en cada caso envio un email con la notificacion pertinente.
-          Para ver bien el detalle del flujo acceder a la URL ACCESO WEB  y alli leer el README.MD.`,
+        [
+          `This n8n workflow automates employee leave requests, whether for vacation or sick leave, from a webhook input accessible via a POST request.`,
+          `First, it checks a database for available days and whether the employee meets certain conditions, and then approves or rejects the request. HR also performs this process by accessing a webhook with a POST request.`,
+          `If approved, the request is saved in Google Calendar, and an email notification is sent in each case.`,
+          `For a detailed look at the workflow, access the WEB ACCESS URL and read the README.MD file.`,
+        ],
+        [
+          `Este flujo n8n automatiza desde una entrada de webhook -accesible a traves de un POST- los pedidos de un empleado para tomar licencia, ya sea por Vacaciones o o Enfermedad.`,
+          `Primero analiza desde una base de datos si tiene dias disponibles y si cumple ciertas condiciones y luego le da o le rechaza el pedido -RRHH tambien hace esto accediendo a con un POST a un webhook-.`,
+          `Si lo aprueba lo graba en Google Calendar y en cada caso envio un email con la notificacion pertinente.`,
+          `Para ver bien el detalle del flujo acceder a la URL ACCESO WEB  y alli leer el README.MD.`,
+        ],
       ],
       pTech: ["n8n", "n8n"],
 
-      pFront: "",
+      pFront:
+        "https://github.com/JoseCorrientes/n8n-Pedido-De-Licencia-con-Webhooks.git",
       pBack: "",
-      pDeploy: "https://github.com/JoseCorrientes/n8n-PedidoDeLicencia",
+      pDeploy: "",
       pVideo: [],
       pPhoto: [Flow2],
     },
     {
+      pID: "08",
       pName: [
         "REQUEST FOR LEAVE (Vacation or Sick Leave)- N8N FLOW USING FORMS",
         "PEDIDO POR LICENCIA (Vacaciones o Enfermedad) - FLUJO N8N USANDO FORMULARIOS",
       ],
       pDescription: [
-        `This n8n workflow automates employee leave requests, whether for vacation or sick leave, from an n8n form input. First, it checks a database to see if the employee has available days and meets certain conditions, and then approves or rejects the request.
-          If approved, it saves the request to Google Calendar, and in each case, an email notification is sent.
-          For a detailed look at the workflow, access the WEB ACCESS URL and read the README.MD file.`,
-        `Este flujo n8n automatiza desde una entrada n8n form los pedidos de un empleado para tomar licencia, ya sea por Vacaciones o o Enfermedad. Primero analiza desde una base de datos si tiene dias disponibles y si cumple ciertas condiciones y luego le da o le rechaza el pedido.
-          Si lo aprueba lo graba en Google Calendar y en cada caso envio un email con la notificacion pertinente.
-          Para ver bien el detalle del flujo acceder a la URL ACCESO WEB  y alli leer el README.MD.`,
+        [
+          `This n8n workflow automates employee leave requests, whether for vacation or sick leave, from an n8n form input.`,
+          `First, it checks a database to see if the employee has available days and meets certain conditions, and then approves or rejects the request.`,
+          `If approved, it saves the request to Google Calendar, and in each case, an email notification is sent.`,
+          `For a detailed look at the workflow, access the WEB ACCESS URL and read the README.MD file.`,
+        ],
+        [
+          `Este flujo n8n automatiza desde una entrada n8n form los pedidos de un empleado para tomar licencia, ya sea por Vacaciones o o Enfermedad.`,
+          `Primero analiza desde una base de datos si tiene dias disponibles y si cumple ciertas condiciones y luego le da o le rechaza el pedido.`,
+          `Si lo aprueba lo graba en Google Calendar y en cada caso envio un email con la notificacion pertinente.`,
+          `Para ver bien el detalle del flujo acceder a la URL ACCESO WEB  y alli leer el README.MD.`,
+        ],
       ],
       pTech: ["n8n", "n8n"],
 
-      pFront: "",
+      pFront:
+        "https://github.com/JoseCorrientes/n8n-Pedido-De-Licencia-con-n8n-Forms.git",
       pBack: "",
-      pDeploy: "https://github.com/JoseCorrientes/n8n-PedidoDeLicencia",
+      pDeploy: "",
       pVideo: [],
       pPhoto: [Flow1],
     },
     {
+      pID: "07",
       pName: ["MEMO PAIRS", "MEMO PAIRS"],
       pDescription: [
-        `Memo Pairs is a game where you must guess where in the scoreboard are the pairs of equal faces. When you are success both of the cards are quited of the board and you earn a point. The goal is to make the biggest score possible.`,
-        `Memo Pairs es un juego donde debe adivinar donde estan un par de caras iguales dentro del tablero. Cuando lo logra, ambas caras son eliminadas del tablero y gana un punto. El objetivo es hacer la mayor puntuacion posible.`,
+        [
+          `Memo Pairs is a game where you must guess where in the scoreboard are the pairs of equal faces.`,
+          `When you are success both of the cards are quited of the board and you earn a point.`,
+          `The goal is to make the biggest score possible.`,
+        ],
+        [
+          `Memo Pairs es un juego donde debe adivinar donde estan un par de caras iguales dentro del tablero.`,
+          `Cuando lo logra, ambas caras son eliminadas del tablero y gana un punto.`,
+          `El objetivo es hacer la mayor puntuacion posible.`,
+        ],
       ],
       pTech: [
         "HTML, TailwindCSS, Javascript, Vite, React, Web Design. ",
@@ -115,17 +168,23 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
       pPhoto: [],
     },
     {
+      pID: "06",
       pName: ["TIC-TAC-TOE", "TIC-TAC-TOE"],
       pDescription: [
-        `This is SPA that allow you to defeat the CPU playing tic-tac-toe. First af all you must decide if you move first, and the number of rounds to play. Then You and the CPU plays alternatively.
-          At the end the app shows who won.`,
-        `Este es un SPA que te permite derrotar a la CPU jugando al tres en raya. En primer lugar debes decidir si te mueves primero y el número de rondas a jugar. Entonces tú y la CPU juegan alternativamente.
-          Al final la aplicación muestra quién ganó.
-          `,
+        [
+          `This is SPA that allow you to defeat the CPU playing tic-tac-toe.`,
+          `First of all you must decide if you move first, and the number of rounds to play. Then You and the CPU plays alternatively.`,
+          `At the end the app shows who won.`,
+        ],
+        [
+          `Este es un SPA que te permite derrotar a la CPU jugando al tres en raya.`,
+          `En primer lugar debes decidir si te mueves primero y el número de rondas a jugar. Entonces tú y la CPU juegan alternativamente.`,
+          `Al final la aplicación muestra quién ganó.`,
+        ],
       ],
       pTech: [
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, responsive design. ",
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, NodeJs, diseño responsivo.",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, Responsiveness. ",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, React-icons, NodeJs, Responsividad.",
       ],
       pFront: "https://github.com/JoseCorrientes/tictactoe",
       pBack: "",
@@ -134,14 +193,21 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
       pPhoto: [],
     },
     {
+      pID: "05",
       pName: ["TAKE-A-TURN APP", "TAKE-A-TURN APP"],
       pDescription: [
-        "Smart scheduling SaaS for healthcare professionals. Developed a custom conflict-resolution algorithm to prevent overlapping appointments. Built with Node.js, React, and PostgreSQL, focusing on high data integrity and performance.",
-        "SaaS de gestión de turnos para profesionales de la salud. Desarrollé un algoritmo de resolución de conflictos propio para evitar solapamientos en la agenda. Construido con el stack PERN (PostgreSQL, Express, React, Node.js), priorizando la integridad de los datos y el rendimiento del sistema.",
+        [
+          `Smart scheduling SaaS for healthcare professionals. I Developed a custom conflict-resolution algorithm to prevent overlapping appointments.`,
+          `Built with Node.js, TailwindCSS, React, and PostgreSQL, focusing on high data integrity and performance.`,
+        ],
+        [
+          `SaaS de gestión de turnos para profesionales de la salud. Desarrollé un algoritmo de resolución de conflictos propio para evitar solapamientos en la agenda.`,
+          `Construido con el stack PERN (PostgreSQL, Express,TailwindCSS, React, Node.js), priorizando la integridad de los datos y el rendimiento del sistema.`,
+        ],
       ],
       pTech: [
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, responsive design. ",
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, Mongo Atlas, dotenv, cors, diseño responsivo.",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), Mongoose, Mongo Atlas, Dotenv, Cors, Responsiveness. ",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), Mongoose, Mongo Atlas, Dotenv, Cors, Responsividad.",
       ],
       pFront: "https://github.com/JoseCorrientes/TakeATurn-Frontend",
       pBack: "https://github.com/JoseCorrientes/TakeATurn-Backend",
@@ -154,14 +220,25 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
       pPhoto: [],
     },
     {
+      pID: "04",
       pName: ["THE ULTIMATE MOVIE APP", "THE ULTIMATE MOVIE APP"],
       pDescription: [
-        "This App let you to search a movie with the TMDB Movie search engine (The Movies DataBase). You can view further details of that movie and -if you see it interesting- keep its data in a Favorite file into a Mongo DB. While we are seeing further details of a movie we can also send a message to a friend suggesting that movie. This App has deployed in a Render free server so probably in the first movie searches it will give you a not found message. The backend takes a few seconds in put itself online",
-        "Esta aplicación te permite buscar un titulo de pelicula usando el motor the TMDB (The Movies DataBase). Se pueden ver los detalles de esa película y si gusta se puede agregar a una lista de favoritas que se guarda en una DB Mongo. Cuando estamos viendo los detalles de una pelicula se puede enviar por email los datos para sugerirla a un amigo. Esta aplicación se ha implementado en un servidor gratuito de Render, por lo que probablemente en las primeras búsquedas de películas le dará un mensaje de no encontrado. El backend tarda unos segundos en ponerse en línea.",
+        [
+          `This App let you to search a movie with the TMDB Movie search engine (The Movies DataBase).`,
+          `You can view further details of that movie and -if you see it interesting- keep its data in a Favorite file into a Mongo DB.`,
+          `While we are seeing further details of a movie we can also send a message to a friend suggesting that movie.`,
+          `This App has deployed in a Render free server so probably in the first movie searches it will give you a not found message. The backend takes a few seconds in put itself online`,
+        ],
+        [
+          `Esta aplicación te permite buscar un titulo de pelicula usando el motor the TMDB (The Movies DataBase).`,
+          `Se pueden ver los detalles de esa película y si gusta se puede agregar a una lista de favoritas que se guarda en una DB Mongo.`,
+          `Cuando estamos viendo los detalles de una pelicula se puede enviar por email los datos para sugerirla a un amigo.`,
+          `Esta aplicación se ha implementado en un servidor gratuito de Render, por lo que probablemente en las primeras búsquedas de películas le dará un mensaje de no encontrado. El backend tarda unos segundos en ponerse en línea.`,
+        ],
       ],
       pTech: [
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, responsive design. ",
-        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), mongoose, dotenv, cors, diseño responsivo.",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), Mongoose, Dotenv, Cors, Responsiveness. ",
+        "HTML, CSS, TailwindCSS, Javascript, Vite, React, Redux, Redux-Thunk, Axios, React-Player, React-icons, React-lottie-player,  NodeJs, Express, sib-api-v3-sdk (Breve/Send-in-Blue), Mongoose, Dotenv, Cors, Responsividad.",
       ],
       pFront: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Frontend",
       pBack: "https://github.com/JoseCorrientes/TheUltimateFilmZone-Backend",
@@ -170,31 +247,50 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
       pPhoto: [],
     },
     {
-      pName: ["MY PORTFOLIO", "MI PORTAFOLIOS"],
+      pID: "03",
+      pName: ["MY PORTFOLIO", "MI PORTAFOLIO"],
       pDescription: [
-        "Technical personal branding development designed under Software Engineering principles. Focused on User Experience (UX) optimization and a clean architecture that facilitates scalability and maintainability.",
-        "Desarrollo de marca personal técnica diseñado bajo principios de Ingeniería de Software. Enfocado en la optimización de la experiencia de usuario (UX) y una arquitectura limpia que facilita la escalabilidad y el mantenimiento.",
+        [
+          `Technical personal branding development designed under Software Engineering principles.`,
+          `Focused on User Experience (UX) optimization and a clean architecture that facilitates scalability and maintainability.`,
+        ],
+        [
+          `Desarrollo de marca personal técnica diseñado bajo principios de Ingeniería de Software.`,
+          `Enfocado en la optimización de la experiencia de usuario (UX) y una arquitectura limpia que facilita la escalabilidad y el mantenimiento.`,
+        ],
       ],
       pTech: [
-        "HTML, CSS, Javascript, React, React-player.",
-        "HTML, CSS, Javascript, React, React-player.",
+        "HTML, CSS, Javascript, TailwindCSS, ReactJS, React-player, Responsiveness.",
+        "HTML, CSS, Javascript, TailwindCSS, ReactJS, React-player, Responsividad.",
       ],
       pFront: "https://github.com/JoseCorrientes/pro-portfolio-mobile.git",
       pBack: "",
 
       pDeploy: "https://pro-portfolio-mobile.vercel.app/",
-      pVideo: ["https://youtu.be/Nr9TnGMKSeo"],
+      pVideo: [""],
       pPhoto: [],
     },
     {
+      pID: "02",
       pName: ["TO-DO APP", "APLICACION DE TO-DOs"],
       pDescription: [
-        "Todo Classic App.  You can take note of all the chores you must do. Once you did it you can check it or delete it. You can hide the finished ones. This version works in responsive way.",
-        "La classica aplicación de To-do s. Puedes tomar nota de todas las tareas que tienes que realizar. Una vez que la realizaste puedes marcarla o borrarla. Puedes ocultar las tareas finalizadas. Esta versión trabaja en formar responsiva.",
+        [
+          `Todo Classic App.`,
+          `You can take note of all the chores you must do. Once you did it you can check it or delete it.`,
+          `You can hide the finished ones.`,
+          `This version works in responsive way.`,
+        ],
+        [
+          `La classica aplicación de To-do s.`,
+          `Puedes tomar nota de todas las tareas que tienes que realizar.`,
+          `Una vez que la realizaste puedes marcarla o borrarla.`,
+          `Puedes ocultar las tareas finalizadas.`,
+          `Esta versión trabaja en formar responsiva.`,
+        ],
       ],
       pTech: [
-        "HTML, CSS, Javascript, React, Responsive Design. ",
-        "HTML, CSS, Javascript, React, Diseño Responsivo.",
+        "HTML, CSS, Javascript, React, Responsiveness. ",
+        "HTML, CSS, Javascript, React, Responsividad.",
       ],
       pFront: "https://github.com/JoseCorrientes/Todo-mobile.git",
       pBack: "",
@@ -204,10 +300,21 @@ For a detailed look at the workflow, access the WEB ACCESS URL and read the READ
       pPhoto: [],
     },
     {
+      pID: "01",
       pName: ["BUYME APP", "BUYME APP"],
       pDescription: [
-        "Buyme app it's our Final Team Work to graduated from Henry's Bootcamp. It's an client-server app to manage an e-commerce. It has two front parts:  The client part and the administrator one. Depending on you loggin you access to one or the other. The App uses Mercado Pago as  pay gateway. It also uses Jason Web Token to improve the access security.",
-        "Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry. Consiste en una app cliente-servidor para gestionar un e-commerce. Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado. utiliza a mercado pago como pasarela de pago. Tambien utiliza Jason Web Token para mejorar la seguridad del acceso.",
+        [
+          `Buyme app it's our Team Final Work to graduated from Henry's Bootcamp.`,
+          `It's an client-server app to manage an e-commerce.`,
+          `It has two front parts:  The client part and the administrator one. Depending on you loggin you access to one or the other.`,
+          `The App uses Mercado Pago as pay gateway. It also uses Jason Web Token to improve the access security.`,
+        ],
+        [
+          `Buyme App es nuestro Proyecto Final Grupal para graduarnos de Henry.`,
+          `Consiste en una app cliente-servidor para gestionar un e-commerce.`,
+          `Consta de la parte cliente y de la parte administradora que se accede por el front y se discrimina por el loggin ingresado.`,
+          `Utiliza a mercado pago como pasarela de pago. Tambien utiliza Jason Web Token para mejorar la seguridad del acceso.`,
+        ],
       ],
       pTech: [
         "HTML, CSS, Javascript, React, Redux, AG Grid, NodeJs, Express, Sequelize, PostgreSQL, Jason Web Token, NodeMailer, MercadoPago Api.",
