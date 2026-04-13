@@ -267,7 +267,7 @@ const data = {
       pBack: "",
 
       pDeploy: "https://pro-portfolio-mobile.vercel.app/",
-      pVideo: [""],
+      pVideo: ["https://youtu.be/RSIrDoXNvCc"],
       pPhoto: [],
     },
     {
